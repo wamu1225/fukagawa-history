@@ -6,6 +6,7 @@ import * as path from 'path';
 import { articles } from '../src/data/articles';
 import { routeStops } from '../src/data/route';
 import { ABOUT_CONTENT, PRIVACY_CONTENT, SITE_NAME } from '../src/data/static-pages';
+import { figureHtml } from '../src/data/figures-data';
 
 const DIST_DIR = path.resolve(process.cwd(), 'dist');
 const INDEX_HTML_PATH = path.join(DIST_DIR, 'index.html');
@@ -132,10 +133,12 @@ for (const a of articles) {
   const sourcesHtml = a.sources
     .map((s) => `<li><a href="${esc(s.url)}" style="color:#1b4b43">${esc(s.label)}</a></li>`)
     .join('\n');
+  const fig = figureHtml(a.id);
   const body = `<article style="${shellStyle}">
     <h1 style="${h1Style}">${esc(a.title)}</h1>
     <p style="color:#6b6259">${esc(a.dek)}</p>
     ${mdToHtml(a.body)}
+    ${fig ?? ''}
     <div style="margin-top:24px;padding:14px 16px;background:#fff;border:1px solid #ddd3bf;border-radius:6px">
       <strong>出典</strong>
       <ul style="margin:6px 0 0;padding-left:18px">${sourcesHtml}</ul>
