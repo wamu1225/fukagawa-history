@@ -1,10 +1,12 @@
 import { routeStops } from '../data/route';
+import { SITE_NAME } from '../data/static-pages';
 import { href } from '../lib/router';
 
 export default function Home() {
   return (
     <>
       <div className="home-intro">
+        <h1 className="content-h1">{SITE_NAME}</h1>
         <p className="home-intro__lede">
           深川を歩くと、不自然に広い道や、住宅街の中を蛇行する緑地に出会う。その多くは、かつてここにあった運河が埋め立てられた跡だ。
         </p>
