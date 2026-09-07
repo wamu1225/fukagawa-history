@@ -211,6 +211,27 @@
   margin-bottom: 16px;
 }
 
+.fig {
+  margin: 24px 0;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.fig svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fig figcaption {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
 .article-sources {
   margin-top: 32px;
   padding: 16px 18px;

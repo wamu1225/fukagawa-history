@@ -2,6 +2,12 @@ import { articles } from '../data/articles';
 import { routeStops } from '../data/route';
 import { renderMarkdown } from '../lib/md';
 import { href } from '../lib/router';
+import { AburaboriFigure, CanalParkFigure } from '../components/Figures';
+
+const FIGURES: Record<string, () => React.ReactNode> = {
+  'aburabori-shutoko': () => <AburaboriFigure />,
+  'sendaibori-furuishiba': () => <CanalParkFigure />,
+};
 
 export default function ArticlePage({ id }: { id: string }) {
   const article = articles.find((a) => a.id === id);
@@ -30,6 +36,8 @@ export default function ArticlePage({ id }: { id: string }) {
       </div>
 
       <div className="article-body">{renderMarkdown(article.body)}</div>
+
+      {FIGURES[article.id]?.()}
 
       <div className="article-sources">
         <div className="article-sources__label">出典</div>
