@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="深川さんぽ史">
+  <rect width="64" height="64" rx="12" fill="#1b4b43"/>
+  <path d="M6 24 Q 18 14, 32 24 T 58 24" fill="none" stroke="#f5efe4" stroke-width="4" stroke-linecap="round"/>
+  <path d="M6 36 Q 18 26, 32 36 T 58 36" fill="none" stroke="#f5efe4" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="48" cy="46" r="5" fill="#b5533c"/>
+</svg>
