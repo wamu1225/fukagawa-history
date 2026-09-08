@@ -1,4 +1,4 @@
-// scripts/prerender.ts：SSG。トップ（さんぽルート）、記事一覧、記事8本、about/privacyの
+// scripts/prerender.ts：SSG。トップ（さんぽルート）、記事一覧、記事10本、about/privacyの
 // 静的フォールバックHTML、per-page meta、JSON-LDを焼き込み、sitemap.xmlを生成する。
 // 実行: npx tsx scripts/prerender.ts（npm run predeploy 内）
 import * as fs from 'fs';
@@ -76,7 +76,7 @@ function wrap(depth: number, title: string, desc: string, urlPath: string, bodyH
 
 // ── トップ（さんぽルート） ──
 const homeDesc =
-  '深川の不自然に広い道や蛇行する緑地は、運河の埋立跡。採荼庵跡・富岡八幡宮・木場公園など7地点を歩いて確かめる深川さんぽガイド。';
+  '深川の不自然に広い道や蛇行する緑地は、運河の埋立跡。小名木川、油堀川、木場など9地点を歩いて確かめる深川さんぽガイド。';
 const routeRows = routeStops
   .map(
     (s) =>
@@ -105,7 +105,7 @@ console.log('✓ トップページ');
 
 // ── 記事一覧 ──
 {
-  const desc = '深川の水路と土地の歴史をテーマ別にまとめた8本の記事の一覧です。';
+  const desc = '深川の水路と土地の歴史をテーマ別にまとめた10本の記事の一覧です。';
   const rows = articles
     .map((a) => `<li><a href="${BASE}/articles/${a.id}/" style="color:#1b4b43">${esc(a.title)}</a>：${esc(a.dek)}</li>`)
     .join('\n');
@@ -159,7 +159,7 @@ for (const a of articles) {
     }),
   );
 }
-console.log('✓ /articles/<id>/ 全8件');
+console.log('✓ /articles/<id>/ 全10件');
 
 // ── about / privacy ──
 for (const [slug, title, desc, content] of [
