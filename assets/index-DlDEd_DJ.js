@@ -10,7 +10,7 @@ Error generating stack: `+e.message+`
 
 深川さんぽ史は、東京都江東区深川地区の街を歩く人に向けて、今の街路や公園の形がどんな水路の記憶を残しているかをまとめたサイトです。
 
-道路の不自然な広さや、住宅街を蛇行する緑地は、多くの場合、江戸時代から続いた運河が埋め立てられた跡です。このサイトでは、実際に今も訪ねられる7つの地点（採荼庵跡、深川江戸資料館、仙台堀川親水公園、古石場川親水公園、油堀川跡、富岡八幡宮、木場公園）を地理的な順路にそって紹介し、各地点で「かつて何があったか」と「今何が見えるか」をあわせて示しています。
+道路の不自然な広さや、住宅街を蛇行する緑地は、多くの場合、江戸時代から続いた運河が埋め立てられた跡です。このサイトでは、小名木川、仙台堀川、古石場川、油堀川、大横川、平久川、木場という運河そのものの跡や現存する運河に加え、採荼庵跡と富岡八幡宮という運河のすぐ近くにある2つの寄り道を合わせた9つの地点を、地理的な順路にそって紹介しています。各地点で「かつて何があったか」と「今何が見えるか」をあわせて示すとともに、川幅や開削年といった具体的な数値、和倉橋の親柱のように現地で確認できる実物も可能な限り記載しています。
 
 ## 出典について
 
@@ -32,7 +32,7 @@ Error generating stack: `+e.message+`
 
 ## 免責事項
 
-本サイトの内容については正確な情報を提供するよう努めていますが、内容の正確性や安全性を保証するものではありません。本サイトの利用によって生じた損害について、一切の責任を負いかねます。`,v=[{id:`saito-an`,order:1,name:`採荼庵跡（さいとあんあと）`,area:`清澄白河、深川1丁目付近`,whatWasHere:`松尾芭蕉の門人である杉山杉風（さんぷう）の別荘。芭蕉は「おくのほそ道」へ旅立つ前、住まいだった芭蕉庵を人に譲り、しばらくここで過ごした。`,whatYouSeeToday:`海辺橋のたもとに、腰掛けて杖を持つ芭蕉の姿を模した石像と説明板がある小さな児童公園の一角。当時の建物は残っていない。`,articleId:`saito-an`},{id:`fukagawa-edo-museum`,order:2,name:`深川江戸資料館`,area:`白河1丁目`,whatWasHere:`江戸時代末期の深川佐賀町（隅田川と小名木川の合流部に近い水運の要衝）そのものではなく、その町並みを実物大で再現した資料館。`,whatYouSeeToday:`土蔵、問屋、船宿、長屋を実寸で復元した屋内展示。掘割に浮かぶ猪牙舟の模型もあり、水路に面した町がどう機能していたかを体感できる。`,articleId:`fukagawa-edo-museum`},{id:`sendaibori`,order:3,name:`仙台堀川親水公園`,area:`常盤、平野、清澄`,whatWasHere:`仙台藩の蔵屋敷などへ米や物資を運んだ運河「仙台堀川」の東側区間。`,whatYouSeeToday:`運河そのものの幅を保ったまま整備された遊歩道と桜並木。歩いている道の広さが、そのままかつての水面の広さになっている。`,articleId:`sendaibori-furuishiba`},{id:`furuishiba`,order:4,name:`古石場川親水公園`,area:`牡丹〜古石場`,whatWasHere:`江戸城の築城石を置いた「石置き場」に由来する一帯を流れていた水路。`,whatYouSeeToday:`牡丹2丁目から古石場2丁目にかけて、住宅街の中を緩やかにカーブしながら伸びる細長い公園。直線的な道路造成では生まれない蛇行の形が残っている。`,articleId:`sendaibori-furuishiba`},{id:`aburabori`,order:5,name:`油堀川跡（首都高速9号深川線）`,area:`門前仲町`,whatWasHere:`両岸に油問屋が集積し、油を運んだ運河「油堀川」。`,whatYouSeeToday:`頭上を走る首都高速9号深川線の高架。高架の脚が並ぶ細長い日陰の敷地（油堀川公園など）が、水路だった頃の川幅をそのまま引き継いでいる。`,articleId:`aburabori-shutoko`},{id:`tomioka-hachimangu`,order:6,name:`富岡八幡宮`,area:`富岡、門前仲町`,whatWasHere:`寛永4年（1627年）創建の神社。江戸勧進相撲の発祥地であり、伊能忠敬が測量旅の安全を祈願した場所でもある。`,whatYouSeeToday:`境内に残る横綱力士碑などの相撲関連の碑石群と、大鳥居横に立つ伊能忠敬の銅像。銅像の傍らには測量の基準点も設置されている。`,articleId:`tomioka-hachimangu`},{id:`kiba-park`,order:7,name:`木場公園`,area:`木場`,whatWasHere:`元禄期以降、江戸から東京にかけての建築需要を支えた貯木場（材木の集積地）「木場」。`,whatYouSeeToday:`広大な緑地と防災公園。かつて材木を浮かべて保管していた水面の記憶は、公園内に部分的に残る水辺の風景に見て取れる。`,articleId:`kiba`}],y=e((e=>{var t=Symbol.for(`react.transitional.element`),n=Symbol.for(`react.fragment`);function r(e,n,r){var i=null;if(r!==void 0&&(i=``+r),n.key!==void 0&&(i=``+n.key),`key`in n)for(var a in r={},n)a!==`key`&&(r[a]=n[a]);else r=n;return n=r.ref,{$$typeof:t,type:e,key:i,ref:n===void 0?null:n,props:r}}e.Fragment=n,e.jsx=r,e.jsxs=r})),b=e(((e,t)=>{t.exports=y()}))();function x(){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsxs)(`div`,{className:`home-intro`,children:[(0,b.jsx)(`h1`,{className:`content-h1`,children:h}),(0,b.jsx)(`p`,{className:`home-intro__lede`,children:`深川を歩くと、不自然に広い道や、住宅街の中を蛇行する緑地に出会う。その多くは、かつてここにあった運河が埋め立てられた跡だ。`}),(0,b.jsx)(`p`,{children:`このサイトでは、実際に今も訪ねられる7つの地点を、地理的な順路にそって紹介する。各地点で「かつて何があったか」と「今何が見えるか」をあわせて示す。`})]}),(0,b.jsx)(`h2`,{className:`route-heading`,children:`深川さんぽルート`}),(0,b.jsx)(`ol`,{className:`route-list`,children:v.map(e=>(0,b.jsx)(`li`,{children:(0,b.jsxs)(`a`,{className:`route-stop`,href:m(`/articles/${e.articleId}/`),children:[(0,b.jsx)(`span`,{className:`route-stop__marker`,children:e.order}),(0,b.jsx)(`div`,{className:`route-stop__area`,children:e.area}),(0,b.jsx)(`div`,{className:`route-stop__name`,children:e.name}),(0,b.jsxs)(`div`,{className:`route-stop__today`,children:[(0,b.jsx)(`strong`,{children:`今：`}),e.whatYouSeeToday]})]})},e.id))})]})}var ee=[{id:`fukagawa-origin`,order:1,title:`深川はどうやってできたか`,dek:`干潟だった土地が、運河が張り巡らされた水運都市に変わるまで。`,updatedAt:`2026-09-07`,sources:[{label:`江東区公式「江東区の地名由来」`,url:`https://www.city.koto.lg.jp/103020/bunkasports/bunka/joho/6379.html`}],body:`江戸時代より前、今の江東区西部にあたる深川一帯は、隅田川と荒川の河口に広がる遠浅の干潟と湿地だった。人が住む土地としてこの場所が動き出すのは、徳川家康の江戸入りにともなうインフラ整備がきっかけになる。
+本サイトの内容については正確な情報を提供するよう努めていますが、内容の正確性や安全性を保証するものではありません。本サイトの利用によって生じた損害について、一切の責任を負いかねます。`,v=[{id:`onagigawa`,order:1,name:`小名木川`,area:`清澄白河の北側`,category:`canal`,whatWasHere:`慶長年間、徳川家康の命で小名木四郎兵衛が開削した、行徳の塩を運ぶための運河。江戸時代の川幅は隅田川口で20間（約36m）。`,whatYouSeeToday:`埋め立てられていない、今も現役の一級河川。全長約5kmにわたって水面が続き、遊覧船が行き交う。`,articleId:`onagigawa`,lat:35.6798,lng:139.7975},{id:`saito-an`,order:2,name:`採荼庵跡（さいとあんあと）`,area:`清澄白河、深川1丁目付近`,category:`context`,whatWasHere:`松尾芭蕉が「おくのほそ道」へ旅立つ前に身を寄せた、門人である杉山杉風の別荘。旅立ちは舟で小名木川から隅田川へ出る水路だった。`,whatYouSeeToday:`海辺橋のたもとに、腰掛けて杖を持つ芭蕉の姿を模した石像と説明板がある小さな児童公園の一角。`,articleId:`saito-an`,lat:35.6805,lng:139.7982},{id:`fukagawa-edo-museum`,order:3,name:`深川江戸資料館`,area:`白河1丁目`,category:`context`,whatWasHere:`江戸時代末期の深川佐賀町、隅田川と小名木川の合流部に近い水運の要衝を実物大で再現した資料館。運河そのものではないが、運河に面した町がどう機能していたかを伝える。`,whatYouSeeToday:`土蔵、問屋、船宿、長屋を実寸で復元した屋内展示。掘割に浮かぶ猪牙舟の模型もある。`,articleId:`fukagawa-edo-museum`,lat:35.6811,lng:139.7988},{id:`sendaibori`,order:4,name:`仙台堀川親水公園`,area:`清澄〜東陽`,category:`canal`,whatWasHere:`仙台藩をはじめとする諸藩の蔵屋敷へ米や物資を運んだ運河。延長3.7km、面積10.4haは都内最大級の親水公園として整備された区間の元の姿。`,whatYouSeeToday:`運河そのものの幅を保ったまま整備された遊歩道と桜並木。`,articleId:`sendaibori-furuishiba`,lat:35.6735,lng:139.8065},{id:`furuishiba`,order:5,name:`古石場川親水公園`,area:`牡丹〜古石場`,category:`canal`,whatWasHere:`江戸城の築城石を置いた「石置き場」に由来する一帯を流れていた水路。延長0.8km、面積1.6ha。`,whatYouSeeToday:`牡丹2丁目から古石場2丁目にかけて、住宅街の中を緩やかにカーブしながら伸びる細長い公園。`,articleId:`sendaibori-furuishiba`,lat:35.6715,lng:139.8028},{id:`aburabori`,order:6,name:`油堀川跡（首都高速9号深川線）と和倉橋親柱`,area:`門前仲町`,category:`canal`,whatWasHere:`別名「十五間川」。川幅24〜30m（十五間はおよそ27m）、全長約1,670m。元禄12年（1699年）に開削され、両岸に油問屋が集まった。`,whatYouSeeToday:`頭上を走る首都高速9号深川線の高架。富岡八幡宮の北側、高架下には昭和4年（1929年）竣工の和倉橋の親柱2基が、江東区指定の文化財として今も保存されている。`,articleId:`aburabori-shutoko`,lat:35.6716,lng:139.7975},{id:`tomioka-hachimangu`,order:7,name:`富岡八幡宮`,area:`富岡、門前仲町`,category:`context`,whatWasHere:`寛永4年（1627年）創建の神社。江戸勧進相撲の発祥地であり、伊能忠敬が測量旅の安全を祈願した場所。和倉橋跡のすぐ南に位置する。`,whatYouSeeToday:`境内に残る横綱力士碑などの相撲関連の碑石群と、大鳥居横に立つ伊能忠敬の銅像。`,articleId:`tomioka-hachimangu`,lat:35.6719,lng:139.7996},{id:`ogyoku-heikyu`,order:8,name:`大横川と平久川`,area:`木場の西側`,category:`canal`,whatWasHere:`大横川は竪川、小名木川、仙台堀川、平久川と交差しながら南北に流れる運河。平久川は右岸の平井新田、左岸の久左衛門新田という開発地の名から名付けられた。`,whatYouSeeToday:`どちらも埋め立てられず今も水面が続く現役の川。大横川沿いは桜の名所として知られる。`,articleId:`ogyoku-heikyu`,lat:35.674,lng:139.8055},{id:`kiba-park`,order:9,name:`木場公園`,area:`木場`,category:`canal`,whatWasHere:`元禄期以降、材木を浮かべて保管した貯木場。広大な水面と、材木を運ぶための掘割「大島川東支川」などを持っていた。`,whatYouSeeToday:`広大な緑地と防災公園（木場公園）。すぐそばの「木場親水公園」では、貯木場の掘割そのものを整備し直した水路と、川並の像や木製の太鼓橋が残る。`,articleId:`kiba`,lat:35.6732,lng:139.8084}],y=e((e=>{var t=Symbol.for(`react.transitional.element`),n=Symbol.for(`react.fragment`);function r(e,n,r){var i=null;if(r!==void 0&&(i=``+r),n.key!==void 0&&(i=``+n.key),`key`in n)for(var a in r={},n)a!==`key`&&(r[a]=n[a]);else r=n;return n=r.ref,{$$typeof:t,type:e,key:i,ref:n===void 0?null:n,props:r}}e.Fragment=n,e.jsx=r,e.jsxs=r})),b=e(((e,t)=>{t.exports=y()}))();function x(){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsxs)(`div`,{className:`home-intro`,children:[(0,b.jsx)(`h1`,{className:`content-h1`,children:h}),(0,b.jsx)(`p`,{className:`home-intro__lede`,children:`深川を歩くと、不自然に広い道や、住宅街の中を蛇行する緑地に出会う。その多くは、今も流れている運河、または埋め立てられた運河の跡だ。`}),(0,b.jsx)(`p`,{children:`このサイトでは、小名木川から木場まで、運河にまつわる9つの地点を地理的な順路にそって紹介する。運河そのものの跡（緑のマーカー）に加えて、採荼庵跡と富岡八幡宮は運河のすぐ近くにある寄り道（橙のマーカー）として位置づける。各地点で「かつて何があったか」と「今何が見えるか」をあわせて示す。`})]}),(0,b.jsx)(`h2`,{className:`route-heading`,children:`深川さんぽルート`}),(0,b.jsx)(`ol`,{className:`route-list`,children:v.map(e=>(0,b.jsx)(`li`,{children:(0,b.jsxs)(`a`,{className:`route-stop`,href:m(`/articles/${e.articleId}/`),children:[(0,b.jsx)(`span`,{className:`route-stop__marker${e.category===`context`?` route-stop__marker--context`:``}`,children:e.order}),(0,b.jsxs)(`div`,{className:`route-stop__area`,children:[e.area,e.category===`context`&&(0,b.jsx)(`span`,{className:`route-stop__tag`,children:`寄り道`})]}),(0,b.jsx)(`div`,{className:`route-stop__name`,children:e.name}),(0,b.jsxs)(`div`,{className:`route-stop__today`,children:[(0,b.jsx)(`strong`,{children:`今：`}),e.whatYouSeeToday]})]})},e.id))})]})}var ee=[{id:`fukagawa-origin`,order:1,title:`深川はどうやってできたか`,dek:`干潟だった土地が、運河が張り巡らされた水運都市に変わるまで。`,updatedAt:`2026-09-09`,sources:[{label:`江東区公式「江東区の地名由来」`,url:`https://www.city.koto.lg.jp/103020/bunkasports/bunka/joho/6379.html`},{label:`ROIS-DS人文学オープンデータ共同利用センター「江戸マップ」深川絵図（尾張屋版）`,url:`https://codh.rois.ac.jp/edo-maps/owariya/14/`},{label:`同「深川絵図（現代位置合わせ地図）」`,url:`https://codh.rois.ac.jp/edo-maps/owariya/14/georef/`}],body:`江戸時代より前、今の江東区西部にあたる深川一帯は、隅田川と荒川の河口に広がる遠浅の干潟と湿地だった。人が住む土地としてこの場所が動き出すのは、徳川家康の江戸入りにともなうインフラ整備がきっかけになる。
 
 天正18年（1590年）ごろ、行徳の塩田から江戸へ塩を運ぶための水路として、小名木川が開かれた。この川の開削を境に、北岸と南岸の両方で埋め立てと開墾が進んでいく。
 
@@ -44,35 +44,79 @@ Error generating stack: `+e.message+`
 
 深川一帯が本格的な市街地になるのは、明暦3年（1657年）の明暦の大火のあとだ。江戸市中の復興と防火対策の一環として、幕府は深川の埋め立てを一気に進め、武家屋敷や寺社、物流を担う町人地をここへ移した。同時に、格子状に運河（掘割）を巡らせ、水運を前提にした街区を作り上げていく。
 
-このとき張り巡らされた運河網の多くは、明治以降、そして昭和の高度成長期に姿を消していく。次の記事からは、その運河の跡が今の深川にどんな形で残っているかを、実際に歩いて確かめられる場所を中心に見ていく。`},{id:`sendaibori-furuishiba`,order:2,title:`仙台堀川と古石場川、親水公園に姿を変えた運河`,dek:`運河そのものの幅とカーブが、そのまま公園の形になって残っている場所。`,updatedAt:`2026-09-07`,sources:[{label:`江東区公式「親水公園について」`,url:`https://www.city.koto.lg.jp/470705/machizukuri/kasenkoen/shinsuikoen/17602.html`}],body:`深川を歩いていて「なぜここだけ道がこんなに広いのか」「なぜ住宅街の中を緑地が蛇行しているのか」と感じたら、それは埋め立てられた運河が公園に転用された跡である可能性が高い。
+このとき深川に張り巡らされていた運河網は、国立国会図書館が公開する古地図をもとにROIS-DS人文学オープンデータ共同利用センターが公開している「江戸マップ」の深川絵図（尾張屋版）で今も確認できる。小名木川、大横川、仙台堀川、油堀川、古石場川といった水路が、格子状に街区を区切っている様子が読み取れる資料だ。さらに同センターは、この深川絵図を現代の地理院地図やGoogle Earthに重ねて表示できる「現代位置合わせ地図」も公開している。江戸時代の水路がどの現代の街路や公園と重なるかを、自分で地図上に重ねて確かめることができる、貴重な学術データベースだ。
 
-## 仙台堀川は蔵屋敷への輸送路だった
+## このサイトの見方
 
-仙台堀川は、仙台藩をはじめとする諸藩の蔵屋敷へ米や物資を運んだ運河だった。東側の区間は現在「仙台堀川親水公園」として整備されており、運河が持っていた水面の幅をそのまま引き継いだ遊歩道と桜並木が続く。周囲の住宅地の区画が公園に対して斜めに向き合っているところもあり、道路として計画的に作られた土地ではないことが街区の形からも読み取れる。
+このサイトで紹介する9つの地点のうち、小名木川、仙台堀川、古石場川、油堀川、大横川、平久川、木場は運河そのものの跡や現存する運河である。採荼庵跡と深川江戸資料館、富岡八幡宮の3地点は運河そのものではないが、水運と密接に結びついた場所として合わせて紹介する。運河の跡が今の深川にどんな形で残っているかを、実際に歩いて確かめられる場所を中心に見ていく。`},{id:`onagigawa`,order:2,title:`小名木川、今も流れる運河`,dek:`埋め立てられず、開削から400年以上経った今も水面を保つ深川最古の運河。`,updatedAt:`2026-09-09`,sources:[{label:`深川江戸資料館「資料館ノート」第136号（PDF）`,url:`https://www.kcf.or.jp/cms/files/pdf/original/15650_%E8%B3%87%E6%96%99%E9%A4%A8%E3%83%8E%E3%83%BC%E3%83%88136%E5%8F%B7.pdf`},{label:`東京都建設局「扇橋閘門」`,url:`https://www.kensetsu.metro.tokyo.lg.jp/jimusho/chisui/jigyou/suimon/image/ougibashi`}],body:`深川の運河網の中で最も古く、そして唯一、埋め立てられずに今も現役で流れているのが小名木川である。
 
-## 古石場川に残るカーブ、水路の記憶
+## 塩を運ぶための直線水路
 
-古石場川は、江戸城の築城に使う石を置いた「石置き場」に由来する地名の一帯を流れていた水路である。埋め立てられたあと「古石場川親水公園」となり、牡丹2丁目から古石場2丁目にかけて、住宅街の中を緩やかにS字を描きながら伸びている。道路を新しく作るだけなら生まれないこの蛇行こそが、かつて水が流れていた証拠だ。
+小名木川は、隅田川と旧中川を東西に結ぶ、全長約5kmの運河だ。慶長年間（1596〜1615年）、小名木四郎兵衛が徳川家康の命を受けて開削したと伝えられている。目的は、行徳（現在の千葉県市川市）の塩田で作られた塩を、安全に江戸まで運ぶことだった。それまでの海上輸送は房総沖の荒波にさらされる危険な航路であり、内陸を貫く直線の水路を新たに掘ることで、安定した塩の供給路を確保したのである。
 
-埋め立てや開園の正確な年について、江東区の公開情報や複数の記録の間で年数の食い違いが見られたため、ここでは「1980年代に整備された」という幅のある書き方に留める。年号よりも、目の前にある土地の形そのものが運河の記憶を伝えているという点が、この2つの公園を歩く意味である。`},{id:`aburabori-shutoko`,order:3,title:`油堀川跡と首都高速9号深川線、高架の下に残る川幅`,dek:`頭上を走る高速道路の高架が、消えた運河の川幅そのものをなぞっている。`,updatedAt:`2026-09-07`,sources:[{label:`首都高速道路株式会社「高速9号深川線」`,url:`https://www.shutoko.jp/use/network/map/route-9/`}],body:`深川で運河の痕跡が最もはっきり見える場所の一つが、門前仲町付近を通る首都高速9号深川線の高架下である。
+江戸時代の記録によれば、小名木川の川幅は隅田川に近い河口側でおよそ20間（約36m）、旧中川に近い側でおよそ14間（約25m）あった。現在の川幅もこれに近い規模を保っている。
 
-## 油問屋が並んだ川
+## なぜ埋め立てられなかったのか
 
-油堀川は、隅田川から木場方面へ東西に通じていた運河で、両岸に油問屋が集まっていたことからこの名がついた。物資輸送を担う水路として長く使われてきたが、昭和50年（1975年）ごろに埋め立てが完了し、水路としての役目を終えた。
+仙台堀川や古石場川、油堀川が20世紀後半に次々と埋め立てられた一方、小名木川が今も水面を保っているのは、単なる偶然ではない。小名木川は塩の輸送路として始まったのちも、木材や日用品を運ぶ幹線水路として使われ続け、周辺の運河網を結びつける軸としての役割を保ち続けた。現在も水質浄化や防災（震災時の水上輸送路）の機能を期待され、一級河川として管理が続いている。
 
-## 高架がなぞる、かつての川幅
+## 東京のパナマ運河、扇橋閘門
 
-水路が姿を消したあと、昭和55年（1980年）2月に、その跡地の上に首都高速9号深川線が開通した。高架の柱が等間隔で並ぶ細長い日陰の敷地（油堀川公園など）は、単なる道路の残地ではなく、かつて水が流れていた川幅そのものだ。高架を見上げたときの「なぜこんなに真っ直ぐ、こんな幅で道路や高架が通っているのか」という違和感こそが、この場所が運河の跡であることを教えてくれる。
+小名木川の途中、新扇橋と小松橋の間には「扇橋閘門」という水門施設がある。地盤沈下によって小名木川の東側と西側で水位に最大3mもの差ができてしまったため、パナマ運河と同じ原理で船を昇降させる閘門が設けられた。前後の扉に挟まれた幅11m、長さ110mの閘室に船を入れ、給排水で水位を約2分で調整してから反対側へ通す仕組みで、通航は無料、事前連絡も不要だ。夏休みには一般公開もされている。塩の運搬のために開かれた運河が、今は水位差という別の理由で特別な設備を必要としているという事実そのものが、400年におよぶ小名木川の使われ続けた歴史を物語っている。
 
-道路や公園の形から水路の記憶を読み取るという意味で、油堀川跡は深川の街歩きの中でも特に分かりやすい例だ。`},{id:`fukagawa-edo-museum`,order:4,title:`深川江戸資料館に見る、水路に面した町の暮らし`,dek:`運河がまだ生きていた頃、人と物資はどう行き交っていたのか。`,updatedAt:`2026-09-07`,sources:[{label:`深川江戸資料館（公益財団法人江東区文化コミュニティ財団）`,url:`https://www.kcf.or.jp/fukagawa/josetsu/`}],body:`公益財団法人江東区文化コミュニティ財団が運営する深川江戸資料館（江東区白河1丁目）は、江戸時代末期（天保年間ごろ）の深川佐賀町の町並みを実物大で再現した展示施設である。
+## 現地で見られるもの
+
+清澄白河の北側を東西に流れる小名木川沿いには遊歩道が整備されており、水面を間近に見ながら歩くことができる。小名木川はまた、次に紹介する採荼庵跡とも縁が深い。松尾芭蕉が「おくのほそ道」の旅に出た際、舟でこの川を下り、隅田川へ出たと伝えられているからだ。埋め立てられた運河の跡を巡る前に、今も生きている運河の姿を見ておくと、失われた水路の規模がより具体的に想像できる。`},{id:`saito-an`,order:3,title:`松尾芭蕉が「おくのほそ道」へ出発した採荼庵`,dek:`小名木川を舟で下って旅立った、芭蕉庵ではなく採荼庵という別の庵。`,updatedAt:`2026-09-09`,sources:[{label:`江東区公式「採荼庵跡」`,url:`https://www.city.koto.lg.jp/103020/bunkasports/bunka/bunkazaisiseki/shiseki/16022.html`},{label:`芭蕉翁顕彰会「旅と句：おくのほそ道」`,url:`https://www.basho-bp.jp/?page_id=28`}],body:`採荼庵跡そのものは運河の跡地ではない。しかし、ここで語られる旅立ちの経路は小名木川という運河と切り離せない。運河をたどる散歩の途中に立ち寄る、水運と縁の深い寄り道として紹介する。
+
+俳人の松尾芭蕉は、延宝8年（1680年）に日本橋の借家を離れ、深川に移り住んだ。門人の杉山杉風が提供した番小屋を修復した住まいは、庭に茂ったバショウにちなんで「芭蕉庵」と呼ばれるようになった。
+
+## 出発したのは「芭蕉庵」ではない
+
+元禄2年（1689年）3月27日（新暦では5月16日）、芭蕉は門人の曾良とともに『おくのほそ道』の旅に出発する。ここでよく誤解されるのが出発の場所だ。芭蕉は旅立つ前に芭蕉庵を人に譲っており、実際にこの日出発したのは、杉山杉風のもう一つの別荘「採荼庵（さいとあん）」からである。採荼庵は現在の深川1丁目付近（元木場平野町北角）にあったとされ、江東区が史跡として位置を伝えている。
+
+芭蕉は採荼庵で門人たちと別れを惜しんだあと、舟に乗った。その経路は、採荼庵の近くを流れていた六間堀という水路から小名木川へ出て、隅田川をのぼり、千住から奥州へと向かうものだったと伝えられている。「草の戸も 住替る代ぞ ひなの家」の句は、この旅立ちの際に詠まれたものだ。同行した門人の河合曾良とともに、この日から約150日、約2,400kmにおよぶ旅が始まった。旅立ちの経路となった六間堀は、竪川と小名木川を結ぶ堀で、寛文年間にはすでに絵図に描かれている古い水路だったが、後年埋め立てられ、今は道路や公園として利用されている。
+
+## 現地で見られるもの
+
+現在、採荼庵があった場所には、腰掛けて杖を持つ芭蕉の姿を模した石像と説明板がある。芭蕉庵そのものの跡地には別に芭蕉稲荷神社や芭蕉庵史跡展望庭園があり、隅田川と小名木川の合流点を見渡せる。「住んでいた場所」と「旅立った場所」が別々に残っているという点、そしてその旅立ちが運河を使った移動だったという点が、深川における芭蕉の足跡をたどるときに押さえておきたいポイントだ。`},{id:`fukagawa-edo-museum`,order:4,title:`深川江戸資料館に見る、水路に面した町の暮らし`,dek:`運河がまだ生きていた頃、人と物資はどう行き交っていたのか。`,updatedAt:`2026-09-09`,sources:[{label:`深川江戸資料館（公益財団法人江東区文化コミュニティ財団）`,url:`https://www.kcf.or.jp/fukagawa/josetsu/`}],body:`公益財団法人江東区文化コミュニティ財団が運営する深川江戸資料館（江東区白河1丁目）は、江戸時代末期（天保年間ごろ）の深川佐賀町の町並みを実物大で再現した展示施設である。運河そのものの遺構ではないが、運河に面した町がどう機能していたかを具体的に伝える場所として、散歩の途中に組み込む価値がある。
 
 ## なぜ佐賀町が選ばれたのか
 
-佐賀町は、隅田川の河口と小名木川の合流点に近く、大型の廻船が直接接岸できる水運の最前線だった。表通りには肥料問屋や土蔵が立ち並び、掘割には客を運ぶ猪牙舟（ちょきぶね）や船宿が浮かんでいた。資料館の展示は、この「水路に面した大規模な物流」と、その裏手に広がる長屋の生活空間という、深川という街の二層構造を実寸で見せている。
+佐賀町は、隅田川の河口と小名木川の合流点に近く、大型の廻船が直接接岸できる水運の最前線だった。表通りに再現された肥料問屋「多田屋」は、実在した店を史実にもとづいて復元した、館内でも数少ない実名の建物である。掘割には客を運ぶ猪牙舟（ちょきぶね）が浮かび、対照的な性格で描かれた2軒の船宿「升田屋」（堅実な構え）と「相模屋」（派手な構え）が並ぶ。資料館の展示は、この「水路に面した大規模な物流」と、その裏手に広がる長屋の生活空間という、深川という街の二層構造を実寸で見せている。
+
+## 30分ごとに繰り返される一日
+
+この資料館の特徴は、単に建物を並べただけの展示ではない点にある。音響と照明によって、朝から夜までの一日の移り変わりが30分おきに15分間かけて演出される。物売りの声や「火の用心」の呼びかけが響き、光の色が変わることで時刻の経過を体感できる。掘割に架かる火の見やぐらの影が伸びていく様子も、この演出の一部だ。さらに、多くの江戸東京の資料館と違って展示物には触れることができ、表通りの大店や裏長屋に実際に上がり込んで、当時の生活道具に触れられる「体感型」の構成になっている。
 
 ## 前の記事とのつながり
 
-仙台堀川や古石場川、油堀川の跡を歩いて「かつてここに水路があった」と頭では分かっても、その水路が実際にどう使われていたかを想像するのは難しい。深川江戸資料館は、その空白を埋めてくれる場所だ。表通りの土蔵と裏長屋の対比を見たあとで運河跡を歩くと、道の広さの意味がより具体的に感じられるはずだ。`},{id:`tomioka-hachimangu`,order:5,title:`富岡八幡宮に残る勧進相撲と伊能忠敬の記憶`,dek:`深川の精神的な中心であり続けた神社に残る、相撲と測量の記憶。`,updatedAt:`2026-09-07`,sources:[{label:`深川江戸資料館「資料館ノート」第103号（PDF）`,url:`https://www.kcf.or.jp/cms/files/pdf/original/8012_%E8%B3%87%E6%96%99%E9%A4%A8%E3%83%8E%E3%83%BC%E3%83%88103.pdf`}],body:`寛永4年（1627年）に創建された富岡八幡宮（深川八幡）は、深川の土地形成と地域社会の中心として400年近くこの地にある。
+小名木川を舟で行き交った物資や人の姿を頭で理解しても、それがどんな規模の町を支えていたかを想像するのは難しい。深川江戸資料館は、その空白を埋めてくれる場所だ。表通りの土蔵と裏長屋の対比を見たあとで、この先で紹介する仙台堀川や古石場川、油堀川の跡を歩くと、道の広さの意味がより具体的に感じられるはずだ。`},{id:`sendaibori-furuishiba`,order:5,title:`仙台堀川と古石場川、親水公園に姿を変えた運河`,dek:`運河そのものの幅とカーブが、そのまま公園の形になって残っている場所。`,updatedAt:`2026-09-09`,sources:[{label:`江東区公式「親水公園について」`,url:`https://www.city.koto.lg.jp/470705/machizukuri/kasenkoen/shinsuikoen/17602.html`},{label:`ROIS-DS人文学オープンデータ共同利用センター「江戸マップ」深川絵図（尾張屋版）`,url:`https://codh.rois.ac.jp/edo-maps/owariya/14/`}],body:`深川を歩いていて「なぜここだけ道がこんなに広いのか」「なぜ住宅街の中を緑地が蛇行しているのか」と感じたら、それは埋め立てられた運河が公園に転用された跡である可能性が高い。
+
+## 仙台堀川、都内最大級の親水公園
+
+仙台堀川は、仙台藩をはじめとする諸藩の蔵屋敷へ米や物資を運んだ運河だった。江戸マップの深川絵図には、この水路が深川の中心部を東西に貫いている様子が描かれている。現在は東砂1丁目地先から東陽6丁目地先の大横川合流点までの区間が「仙台堀川親水公園」として整備されており、延長3.7km、面積10.4haという都内最大級の規模を持つ。運河が持っていた水面の幅をそのまま引き継いだ遊歩道と桜並木が続き、周囲の住宅地の区画が公園に対して斜めに向き合っているところもあり、道路として計画的に作られた土地ではないことが街区の形からも読み取れる。区間には崎川橋、亀久橋、海辺橋、清澄橋など、運河だった時代からの橋名を引き継いだ橋が今も点在しており、地名や橋の名前をたどるだけでも、かつての水路の位置を確認できる。
+
+## 古石場川、カーブに残る水路の記憶
+
+古石場川は、江戸城の築城に使う石を置いた「石置き場」に由来する地名の一帯を流れていた水路である。埋め立てられたあと「古石場川親水公園」となり、牡丹2丁目から古石場2丁目にかけて、延長0.8km、面積1.6haの規模で、住宅街の中を緩やかにS字を描きながら伸びている。道路を新しく作るだけなら生まれないこの蛇行こそが、かつて水が流れていた証拠だ。水路には今も海水が入り込み、時季によってはアサリが見られることもあると伝えられている。
+
+埋め立てや開園の正確な年について、江東区の公開情報や複数の記録の間で年数の食い違いが見られたため、ここでは「1980年代に整備された」という幅のある書き方に留める。年号よりも、目の前にある土地の形そのものが運河の記憶を伝えているという点が、この2つの公園を歩く意味である。`},{id:`aburabori-shutoko`,order:6,title:`油堀川跡と首都高速9号深川線、高架の下に残る川幅`,dek:`別名「十五間川」、幅28mの運河が、そのまま高架の川幅として残っている。`,updatedAt:`2026-09-09`,sources:[{label:`首都高速道路株式会社「高速9号深川線」`,url:`https://www.shutoko.jp/use/network/map/route-9/`},{label:`江東区公式「和倉橋親柱 2基」`,url:`https://www.city.koto.lg.jp/103020/bunkasports/bunka/bunkazaisiseki/kenzobutsu/88745.html`}],body:`深川で運河の痕跡が最もはっきり見える場所の一つが、門前仲町付近を通る首都高速9号深川線の高架下である。この地点は、数値と現存する実物の両方で「運河の跡」を確かめられる、散歩の核となる場所だ。
+
+## 十五間川、その名が示す川幅
+
+油堀川は、隅田川から木場方面へ東西に通じていた運河で、両岸に油問屋が集まっていたことからこの名がついた。「十五間川」「富岡川」という別名も持ち、十五間川という呼び名は文字どおり川幅十五間、およそ28mあったことに由来する。元禄12年（1699年）に開削され、全長は約1,670mにおよんだ。物資輸送を担う水路として長く使われてきたが、昭和50年（1975年）ごろに埋め立てが完了し、水路としての役目を終えた。
+
+## 高架がなぞる、かつての川幅
+
+水路が姿を消したあと、昭和55年（1980年）2月に、その跡地の上に首都高速9号深川線が開通した。高架の柱が等間隔で並ぶ細長い日陰の敷地（油堀川公園など）は、単なる道路の残地ではなく、かつて水が流れていた川幅28mそのものだ。高架を見上げたときの「なぜこんなに真っ直ぐ、こんな幅で道路や高架が通っているのか」という違和感こそが、この場所が運河の跡であることを教えてくれる。
+
+## 和倉橋の親柱、現存する実物
+
+油堀川にはかつて、下之橋、千鳥橋、市木橋、黒亀橋、富岡橋、和倉橋、長居橋、島田橋という8つの橋が架かっていた。このうち和倉橋は昭和4年（1929年）に震災復興橋梁として竣工したが、昭和50年の埋め立てにより撤去された。江東区の公式資料によれば、このとき橋の親柱2基は撤去されず、富岡八幡宮の北側、現在の首都高速道路の下にあたる位置へ移設され、保存された。正面が3段にせり出す造形の親柱は、江東区の指定文化財として今も現地で見ることができる。運河そのものは消えても、そこに架かっていた橋の一部が実物として残っている、数少ない例である。
+
+道路や公園の形から水路の記憶を読み取るという意味で、油堀川跡は深川の街歩きの中でも特に分かりやすい例だ。`},{id:`tomioka-hachimangu`,order:7,title:`富岡八幡宮に残る勧進相撲と伊能忠敬の記憶`,dek:`和倉橋跡のすぐ南、油堀川と隣り合って400年近くこの地にある神社。`,updatedAt:`2026-09-09`,sources:[{label:`深川江戸資料館「資料館ノート」第103号（PDF）`,url:`https://www.kcf.or.jp/cms/files/pdf/original/8012_%E8%B3%87%E6%96%99%E9%A4%A8%E3%83%8E%E3%83%BC%E3%83%88103.pdf`}],body:`富岡八幡宮そのものは運河の遺構ではない。だが、前の記事で見た和倉橋の親柱から歩いてすぐの距離にあり、油堀川という運河のすぐ脇で400年近く地域の中心であり続けた場所として、あわせて紹介する。
+
+寛永4年（1627年）に創建された富岡八幡宮（深川八幡）は、深川の土地形成と地域社会の中心として長くこの地にある。
 
 ## 江戸勧進相撲、発祥の地
 
@@ -80,37 +124,94 @@ Error generating stack: `+e.message+`
 
 ## 伊能忠敬が旅の前に必ず参拝した神社
 
-日本地図を作り上げた伊能忠敬は、隠居後に深川黒江町（現在の門前仲町1丁目付近）に住み、測量の旅に出るたびに、まず富岡八幡宮へ参拝してから出発したと伝えられている。平成13年（2001年）10月、大鳥居のそばに伊能忠敬の銅像が建てられた。銅像の横には、同年6月に日本が新しい世界測地系へ移行したことを記念して、全国測量設計業協会連合会が設置した三等三角点も置かれている。この三角点は、新しい座標系にもとづく日本で最初の三角点である。`},{id:`saito-an`,order:6,title:`松尾芭蕉が「おくのほそ道」へ出発した採荼庵`,dek:`芭蕉庵ではなく、門人の別荘「採荼庵」から旅は始まった。`,updatedAt:`2026-09-07`,sources:[{label:`江東区公式「採荼庵跡」`,url:`https://www.city.koto.lg.jp/103020/bunkasports/bunka/bunkazaisiseki/shiseki/16022.html`}],body:`俳人の松尾芭蕉は、延宝8年（1680年）に日本橋の借家を離れ、深川に移り住んだ。門人の杉山杉風が提供した番小屋を修復した住まいは、庭に茂ったバショウにちなんで「芭蕉庵」と呼ばれるようになった。
+日本地図を作り上げた伊能忠敬は、隠居後に深川黒江町（現在の門前仲町1丁目付近）に住み、測量の旅に出るたびに、まず富岡八幡宮へ参拝してから出発したと伝えられている。平成13年（2001年）10月、大鳥居のそばに伊能忠敬の銅像が建てられた。銅像の横には、同年6月に日本が新しい世界測地系へ移行したことを記念して、全国測量設計業協会連合会が設置した三等三角点も置かれている。この三角点は、新しい座標系にもとづく日本で最初の三角点である。
 
-## 出発したのは「芭蕉庵」ではない
+## 水をかけ合う祭り
 
-元禄2年（1689年）3月27日（新暦では5月16日）、芭蕉は門人の曾良とともに『おくのほそ道』の旅に出発する。ここでよく誤解されるのが出発の場所だ。芭蕉は旅立つ前に芭蕉庵を人に譲っており、実際にこの日出発したのは、杉山杉風のもう一つの別荘「採荼庵（さいとあん）」からである。採荼庵は現在の深川1丁目付近（元木場平野町北角）にあったとされ、江東区が史跡として位置を伝えている。
+富岡八幡宮の例大祭「深川八幡祭り」は、寛永19年（1642年）に始まったと伝えられ、神田祭、山王祭と並ぶ江戸三大祭りの一つに数えられる。3年に一度の本祭りでは、50基を超える町会神輿が連合で渡御し、沿道の観衆が担ぎ手に清めの水を浴びせることから「水かけ祭り」の呼び名でも知られている。夏の盛り、8月15日を中心とした日程で行われるこの祭りは、運河の水を日々の暮らしに取り込んできた深川らしい行事だといえる。
 
-芭蕉は採荼庵で門人たちと別れを惜しんだあと、舟で隅田川をのぼり、千住から奥州へと旅立った。「草の戸も 住替る代ぞ ひなの家」の句は、この旅立ちの際に詠まれたものだ。
+## 運河との位置関係
 
-## 現地で見られるもの
+富岡八幡宮の境内は、前の記事で紹介した和倉橋の親柱の、道を挟んですぐ南側にある。油堀川という運河が生きていた時代、この神社は運河のにぎわいと隣り合わせの場所にあった。相撲と測量という、運河そのものとは別の歴史を持つ場所でありながら、その立地も、水にまつわる祭りの伝統も、水運の記憶と切り離せない。`},{id:`ogyoku-heikyu`,order:8,title:`大横川と平久川、木場の西側に残る運河網`,dek:`仙台堀川や油堀川と違い、埋め立てられずに今も水面を保つ2本の川。`,updatedAt:`2026-09-09`,sources:[{label:`東京都建設局「大横川」`,url:`https://www.kensetsu.metro.tokyo.lg.jp/river/kankyo/ikimono/river/river_suikei_arakawa/river_ooyokogawa`},{label:`東京都建設局「平久川」`,url:`https://www.kensetsu.metro.tokyo.lg.jp/river/kankyo/ikimono/river/river_suikei_arakawa/river_heikyugawa`}],body:`深川の運河がすべて埋め立てられたわけではない。木場の西側には、小名木川と同じく今も水面を保つ2本の川、大横川と平久川がある。
 
-現在、採荼庵があった場所には、腰掛けて杖を持つ芭蕉の姿を模した石像と説明板がある。芭蕉庵そのものの跡地には別に芭蕉稲荷神社や芭蕉庵史跡展望庭園があり、隅田川と小名木川の合流点を見渡せる。「住んでいた場所」と「旅立った場所」が別々に残っているという点が、深川における芭蕉の足跡をたどるときに押さえておきたいポイントだ。`},{id:`kiba`,order:7,title:`木場の移り変わり、貯木場から防災公園へ`,dek:`江戸の建築需要を支えた材木の集積地は、なぜ緑地に変わったのか。`,updatedAt:`2026-09-07`,sources:[{label:`江東区公式「木場公園」`,url:`https://www.city.koto.lg.jp/promotion/spot/kiba.html`}],body:`深川の産業を支えたもう一つの水辺が「木場」、すなわち貯木場である。
+## 大横川、複数の運河をつなぐ軸
+
+大横川は、江戸城から見て横方向（南北）に流れることからその名がついた。かつては流域によって「亥の堀川」「大島川」とも呼ばれていたが、昭和40年（1965年）の河川法改正で「大横川」の名に統一された。明暦の大火のあとの開拓事業で整備が進み、竪川、小名木川、仙台堀川、平久川といった複数の運河と交差しながら南北に流れる、深川の運河網をつなぐ軸のような存在である。
+
+門前仲町駅の南側、練兵衛橋から東富橋までの約1.3kmは桜並木が続く区間で、枝が水面近くまで低く垂れ下がっているのが特徴だ。土日を中心に和船が運航されており、水面近くから見上げる桜は、運河が今も生活や観光に組み込まれている様子を伝えている。
+
+## 平久川、新田開発の名残を伝える名前
+
+平久川は、江戸時代に右岸を「平井新田」、左岸を「久左衛門新田」と呼んでいたことから、両岸の地名を合わせて名付けられた。大横川と交差しながら流れており、埋め立てられた仙台堀川や油堀川と違い、開削当時に近い水面の広さを今に伝えている。木場が貯木場として機能していた時代には、材木を運ぶ水路としても使われ、大横川や小名木川とあわせて、深川の運河網を面として支える役割を担っていた。
+
+## 埋め立てられた運河との対比
+
+ここまで見てきた仙台堀川や古石場川、油堀川は、いずれも埋め立てられて公園や高架道路に姿を変えた。一方で小名木川、大横川、平久川は埋め立てられずに残った。同じ深川の運河でありながら、一部は消えて土地の形にその記憶をとどめ、一部は今も水面のまま残っている。この違いを見比べることが、深川の水運の歴史を立体的に理解する手がかりになる。`},{id:`kiba`,order:9,title:`木場の移り変わり、貯木場から防災公園へ`,dek:`江戸の建築需要を支えた材木の集積地は、なぜ緑地に変わったのか。`,updatedAt:`2026-09-09`,sources:[{label:`江東区公式「木場公園」`,url:`https://www.city.koto.lg.jp/promotion/spot/kiba.html`},{label:`江東区公式「木場親水公園」`,url:`https://www.city.koto.lg.jp/470705/machizukuri/kasenkoen/shinsuikoen/17624.html`}],body:`深川の産業を支えたもう一つの水辺が「木場」、すなわち貯木場である。木場もまた、運河そのものではないが、材木を浮かべて保管するための広大な水面と掘割網を持つ、水運と一体化した空間だった。
 
 ## 火事の街から生まれた材木の集積地
 
-明暦3年（1657年）の明暦の大火のあと、幕府は市中の材木置場を郊外へ移す方針をとった。当初は永代島周辺に集められていた材木置場は、その後の市街地拡大にともなって東へ移り、元禄14年（1701年）ごろ、現在の木場公園周辺にあたる一帯へ再移転した。以後、木場は広大な貯木池と掘割網を持つ一大物流拠点として、江戸から東京にかけての建築需要を支え続けることになる。
+明暦3年（1657年）の明暦の大火のあと、幕府は市中の材木置場を郊外へ移す方針をとった。当初は永代島周辺に集められていた材木置場は、その後の市街地拡大にともなって東へ移り、元禄14年（1701年）ごろ、現在の木場公園周辺にあたる一帯へ再移転した。以後、木場は広大な貯木池と掘割網を持つ一大物流拠点として、江戸から東京にかけての建築需要を支え続けることになる。材木は川から運び込まれ、掘割の水面に浮かべたまま保管された。木を陸に上げずに水に浮かべておくことで、乾燥による割れを防ぎ、火災の延焼も防ぐという実利的な理由があった。
 
 ## 水運から陸運へ、そして緑地へ
 
 昭和に入ると、地盤沈下や過密化による防災上のリスク、トラック輸送への転換による水運の衰退が重なり、木場のあり方は見直しを迫られる。江東区の公式サイトによれば、昭和44年（1969年）の「江東再開発構想」の中で防災拠点の一つと位置づけられ、材木関連業者は昭和40年代後半から新木場へ移転していった。
 
-移転が進んだあと、かつて材木を浮かべて保管していた広大な水面と敷地は埋め立てられ、大規模災害時の避難場所にもなる「木場公園」として整備された。約280年にわたって材木を浮かべ続けた水面は、今は緑地としての役割に変わっている。`},{id:`fukagawa-meshi`,order:8,title:`深川めしと、失われた干潟の記憶`,dek:`運河だけでなく、東京湾の干潟も深川の暮らしを形づくっていた。`,updatedAt:`2026-09-07`,sources:[{label:`江東区公式「江東区の地名由来」`,url:`https://www.city.koto.lg.jp/103020/bunkasports/bunka/joho/6379.html`}],body:`ここまで見てきた運河は、深川を物流の街にした水路だ。しかしもう一つ、深川の暮らしを支えた水辺がある。深川の南側にかつて広がっていた、東京湾の干潟である。
+移転が進んだあと、かつて材木を浮かべて保管していた広大な水面と、それをつなぐ掘割は埋め立てられ、大規模災害時の避難場所にもなる「木場公園」として整備された。約280年にわたって材木を浮かべ続けた水面と掘割は、今は緑地としての役割に変わっている。
+
+## 木場親水公園、掘割そのものが残る場所
+
+木場公園のすぐそばには、木場公園とは別に「木場親水公園」という細長い公園がある。ここは貯木場の水路網の一部だった「大島川東支川」という掘割を、昭和47年（1972年）から10年をかけて整備し直した場所で、延長0.9km、面積1.9haにわたって水路そのものの形が今も残っている。石積みの護岸、木製の太鼓橋、岸辺の灯籠、材木を筏に組んで操った川並（かわなみ）を模した像などが配置されており、木場公園の広大な緑地とは対照的に、掘割の幅や水面をそのまま体感できる。木場を歩くなら、防災公園として整備された木場公園と、掘割の姿を残す木場親水公園の両方を見比べると、貯木場という場所の性格がより具体的に分かる。`},{id:`fukagawa-meshi`,order:10,title:`深川めしと、失われた干潟の記憶`,dek:`運河だけでなく、東京湾の干潟も深川の暮らしを形づくっていた。`,updatedAt:`2026-09-09`,sources:[{label:`江東区公式「江東区の地名由来」`,url:`https://www.city.koto.lg.jp/103020/bunkasports/bunka/joho/6379.html`},{label:`深川宿「アクセス」`,url:`https://www.fukagawajuku.com/access_honten.html`}],body:`ここまで見てきた運河は、深川を物流の街にした水路だ。しかしもう一つ、深川の暮らしを支えた水辺がある。深川の南側にかつて広がっていた、東京湾の干潟である。
 
 ## 漁師町としての深川
 
-江戸時代の深川沖には、隅田川や荒川が運ぶ土砂によってできた広大な干潟があり、アサリやハマグリなどの貝類が豊富にとれる漁場だった。深川の漁師たちは幕府に魚介類を献上する代わりに、周辺水域での漁業権を認められていたと伝えられている。
+江戸時代の深川沖には、隅田川や荒川が運ぶ土砂によってできた広大な干潟があり、アサリやハマグリなどの貝類が豊富にとれる漁場だった。深川猟師町は寛永6年（1629年）、3代将軍徳川家光の時代に幕府の指定を受けて成立したと伝えられている。深川の漁師たちは幕府に魚介類を献上する代わりに、周辺水域での漁業権を認められていたとされ、江戸湾岸には同じように幕府へ海産物を納める見返りに漁業の特権を得た漁村がいくつも存在した。深川はそうした水運と漁業が同時に成り立つ土地だった。
 
 ## ぶっかけ飯から炊き込みご飯へ
 
 この地域資源であるアサリを使った料理が「深川めし」である。もともとは、船の上で手早く食事を済ませたい漁師たちが考え出した簡便な賄い食で、あさりをネギとともに味噌や醤油ベースの出汁でさっと煮て、熱いまま冷や飯にかけて食べる「ぶっかけ飯」がその原形だった。のちに、大工や職人など陸で働く人たちのために、あさりの出汁で米を炊き上げる「炊き込みご飯」の形も広まっていく。
 
-深川めしは、干潟という消えた地形と、水運都市が生んだ労働者文化が結びついてできた、この土地固有の食文化である。運河の跡を歩いたあとに深川めしを食べると、この街が水路だけでなく、海とも近い場所だったことを思い出すきっかけになる。`}];function S(){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)(`h1`,{className:`content-h1`,children:`記事一覧`}),(0,b.jsx)(`p`,{className:`content-p`,children:`深川の水路と土地の歴史をテーマ別にまとめた8本の記事です。`}),(0,b.jsx)(`ul`,{className:`article-index-list`,children:ee.map(e=>(0,b.jsxs)(`li`,{children:[(0,b.jsx)(`a`,{href:m(`/articles/${e.id}/`),children:e.title}),(0,b.jsx)(`p`,{children:e.dek})]},e.id))})]})}function C(e){return e.split(/\n{2,}/).map(e=>e.trim()).filter(Boolean).map((e,t)=>e.startsWith(`## `)?(0,b.jsx)(`h2`,{children:e.slice(3)},t):(0,b.jsx)(`p`,{children:e},t))}var te={"aburabori-shutoko":{html:`<figure class="fig">
+## 今も味わえる場所
+
+深川めしを提供する店の一つに、清澄白河駅のそばにある「深川宿」がある。昭和62年（1987年）の開店にあたり、初代店主が地元の漁師や住民から聞き取った作り方を復元し、現代に伝えている。干潟そのものは失われても、その干潟が育てた料理は今も実際に食べられる形で残っている。
+
+深川めしは、干潟という消えた地形と、水運都市が生んだ労働者文化が結びついてできた、この土地固有の食文化である。運河の跡を歩いたあとに深川めしを食べると、この街が水路だけでなく、海とも近い場所だったことを思い出すきっかけになる。`}];function S(){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)(`h1`,{className:`content-h1`,children:`記事一覧`}),(0,b.jsx)(`p`,{className:`content-p`,children:`深川の水路と土地の歴史をテーマ別にまとめた8本の記事です。`}),(0,b.jsx)(`ul`,{className:`article-index-list`,children:ee.map(e=>(0,b.jsxs)(`li`,{children:[(0,b.jsx)(`a`,{href:m(`/articles/${e.id}/`),children:e.title}),(0,b.jsx)(`p`,{children:e.dek})]},e.id))})]})}function C(e){return e.split(/\n{2,}/).map(e=>e.trim()).filter(Boolean).map((e,t)=>e.startsWith(`## `)?(0,b.jsx)(`h2`,{children:e.slice(3)},t):(0,b.jsx)(`p`,{children:e},t))}var te=e=>e.replace(/&/g,`&amp;`).replace(/</g,`&lt;`).replace(/>/g,`&gt;`);function ne(){let e=111320,t=v.reduce((e,t)=>e+t.lat,0)/v.length,n=Math.cos(t*Math.PI/180),r=(t,r)=>({x:r*n*e,y:-t*e}),i=v.map(e=>({...e,...r(e.lat,e.lng)})),a=Math.min(...i.map(e=>e.x)),o=Math.max(...i.map(e=>e.x)),s=Math.min(...i.map(e=>e.y)),c=Math.max(...i.map(e=>e.y)),l=o-a||1,u=c-s||1,d=Math.min(240/l,260/u),f=e=>30+(e-a)*d,p=e=>30+(e-s)*d,m=i.map(e=>`${f(e.x).toFixed(1)},${p(e.y).toFixed(1)}`).join(` `),h=i.map(e=>{let t=f(e.x).toFixed(1),n=p(e.y).toFixed(1);return`<g>
+        <circle cx="${t}" cy="${n}" r="11" fill="${e.category===`canal`?`#1b4b43`:`#b5533c`}" stroke="#fff" stroke-width="2" />
+        <text x="${t}" y="${n}" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">${e.order}</text>
+      </g>`}).join(`
+`),g=200*d;return`<figure class="fig fig--map">
+  <svg viewBox="0 0 300 360" role="img" aria-labelledby="map-title map-desc">
+    <title id="map-title">深川の運河跡9地点、実座標にもとづく位置関係図</title>
+    <desc id="map-desc">各地点の緯度経度から算出した相対位置を示す図。測量精度の地図ではなく、公表されている座標や住所にもとづく概略図。番号は下の凡例と対応する。</desc>
+    <polyline points="${m}" fill="none" stroke="#a89f92" stroke-width="2" stroke-dasharray="3 5" />
+    ${h}
+    <g transform="translate(274, 26)">
+      <line x1="0" y1="16" x2="0" y2="0" stroke="#2a2622" stroke-width="2" marker-end="url(#map-n-arrow)" />
+      <text x="0" y="-4" font-size="13" text-anchor="middle" fill="#2a2622">N</text>
+    </g>
+    <g transform="translate(30, 316)">
+      <line x1="0" y1="0" x2="${g.toFixed(1)}" y2="0" stroke="#2a2622" stroke-width="2" />
+      <line x1="0" y1="-4" x2="0" y2="4" stroke="#2a2622" stroke-width="2" />
+      <line x1="${g.toFixed(1)}" y1="-4" x2="${g.toFixed(1)}" y2="4" stroke="#2a2622" stroke-width="2" />
+      <text x="${(g/2).toFixed(1)}" y="16" font-size="11" text-anchor="middle" fill="#2a2622">200m</text>
+    </g>
+    <defs>
+      <marker id="map-n-arrow" markerWidth="8" markerHeight="8" refX="4" refY="1" orient="auto">
+        <path d="M0,8 L4,0 L8,8 Z" fill="#2a2622" />
+      </marker>
+    </defs>
+  </svg>
+  <div class="fig-map__legend">
+    <ol>
+      ${i.map(e=>`<li><span class="fig-map__dot fig-map__dot--${e.category}">${e.order}</span>${te(e.name)}</li>`).join(`
+      `)}
+    </ol>
+    <p class="fig-map__key">
+      <span class="fig-map__key-item"><span class="fig-map__dot fig-map__dot--canal">●</span>運河（跡）</span>
+      <span class="fig-map__key-item"><span class="fig-map__dot fig-map__dot--context">●</span>寄り道（文脈）</span>
+    </p>
+  </div>
+  <figcaption>9地点の位置関係を、各地点の緯度経度から算出して描いた図。座標は駅や施設の公表座標、または住所と徒歩分数からの概算であり、測量精度ではない。正確な現代地図との重ね合わせは、ROIS-DS人文学オープンデータ共同利用センターの「深川絵図（現代位置合わせ地図）」で確認できる（出典参照）。</figcaption>
+</figure>`}var re={"fukagawa-origin":{html:ne()},"aburabori-shutoko":{html:`<figure class="fig">
   <svg viewBox="0 0 640 220" role="img" aria-labelledby="abura-title abura-desc">
     <title id="abura-title">油堀川がそのまま首都高速9号深川線の川幅になった断面図</title>
     <desc id="abura-desc">かつて川幅いっぱいに水が流れていた場所に、同じ幅で高架道路が架けられている様子を示す模式図。</desc>
@@ -159,4 +260,4 @@ Error generating stack: `+e.message+`
     </defs>
   </svg>
   <figcaption>水路の蛇行は、道路として新しく作られたものではないため直線にならない。同じカーブが遊歩道の形として残る。</figcaption>
-</figure>`}};function ne(e){return te[e]?.html??null}function re({id:e}){let t=ee.find(t=>t.id===e);if(!t)return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)(`h1`,{className:`content-h1`,children:`記事が見つかりません`}),(0,b.jsx)(`p`,{className:`content-p`,children:(0,b.jsx)(`a`,{href:m(`/articles/`),children:`記事一覧に戻る`})})]});let n=v.find(e=>e.articleId===t.id),r=ee.find(e=>e.order===t.order-1),i=ee.find(e=>e.order===t.order+1);return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsxs)(`div`,{className:`article-header`,children:[n&&(0,b.jsx)(`div`,{className:`article-header__area`,children:n.area}),(0,b.jsx)(`h1`,{className:`article-h1`,children:t.title}),(0,b.jsx)(`p`,{className:`article-dek`,children:t.dek})]}),(0,b.jsx)(`div`,{className:`article-body`,children:C(t.body)}),ne(t.id)&&(0,b.jsx)(`div`,{dangerouslySetInnerHTML:{__html:ne(t.id)}}),(0,b.jsxs)(`div`,{className:`article-sources`,children:[(0,b.jsx)(`div`,{className:`article-sources__label`,children:`出典`}),(0,b.jsx)(`ul`,{style:{margin:0,paddingLeft:18},children:t.sources.map(e=>(0,b.jsx)(`li`,{children:(0,b.jsx)(`a`,{href:e.url,target:`_blank`,rel:`noopener noreferrer`,children:e.label})},e.url))})]}),(0,b.jsxs)(`div`,{className:`article-nav`,children:[r?(0,b.jsxs)(`a`,{href:m(`/articles/${r.id}/`),children:[`← `,r.title]}):(0,b.jsx)(`span`,{}),i?(0,b.jsxs)(`a`,{href:m(`/articles/${i.id}/`),children:[i.title,` →`]}):(0,b.jsx)(`span`,{})]})]})}function w({title:e,content:t}){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)(`h1`,{className:`content-h1`,children:e}),(0,b.jsx)(`div`,{className:`content-body`,children:C(t)})]})}function ie(){let[e,t]=(0,l.useState)(f());return(0,l.useEffect)(()=>{let e=()=>t(f());return window.addEventListener(`popstate`,e),()=>window.removeEventListener(`popstate`,e)},[]),e}function ae(){let e=ie(),t=(0,l.useCallback)(e=>{let t=e.target.closest(`a`);if(!t)return;let n=t.getAttribute(`href`);n&&n.startsWith(`/fukagawa-history`)&&t.target!==`_blank`&&(e.preventDefault(),p(n.slice(17)||`/`))},[]),n,r=e.match(/^\/articles\/([a-z-]+)\/?$/);return n=e===`/`?(0,b.jsx)(x,{}):e===`/articles/`?(0,b.jsx)(S,{}):r?(0,b.jsx)(re,{id:r[1]},r[1]):e===`/about/`?(0,b.jsx)(w,{title:`このサイトについて`,content:g}):e===`/privacy/`?(0,b.jsx)(w,{title:`プライバシーポリシー`,content:_}):(0,b.jsx)(oe,{}),(0,b.jsxs)(`div`,{className:`site-shell`,onClick:t,children:[(0,b.jsx)(`header`,{className:`site-header`,children:(0,b.jsxs)(`div`,{className:`site-header__inner`,children:[(0,b.jsx)(`div`,{className:`site-header__title`,children:(0,b.jsx)(`a`,{href:m(`/`),children:h})}),(0,b.jsxs)(`nav`,{className:`site-header__nav`,children:[(0,b.jsx)(`a`,{href:m(`/articles/`),children:`記事一覧`}),(0,b.jsx)(`a`,{href:m(`/about/`),children:`このサイトについて`})]})]})}),(0,b.jsx)(`main`,{className:`site-main`,children:n}),(0,b.jsxs)(`footer`,{className:`site-footer`,children:[(0,b.jsx)(`a`,{href:m(`/about/`),children:`このサイトについて`}),` ／ `,(0,b.jsx)(`a`,{href:m(`/privacy/`),children:`プライバシーポリシー`})]})]})}function oe(){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)(`h1`,{className:`content-h1`,children:`ページが見つかりません`}),(0,b.jsx)(`p`,{className:`content-p`,children:(0,b.jsx)(`a`,{href:m(`/`),children:`トップへ戻る`})})]})}(0,u.createRoot)(document.getElementById(`root`)).render((0,b.jsx)(l.StrictMode,{children:(0,b.jsx)(ae,{})}));
+</figure>`}};function w(e){return re[e]?.html??null}function ie({id:e}){let t=ee.find(t=>t.id===e);if(!t)return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)(`h1`,{className:`content-h1`,children:`記事が見つかりません`}),(0,b.jsx)(`p`,{className:`content-p`,children:(0,b.jsx)(`a`,{href:m(`/articles/`),children:`記事一覧に戻る`})})]});let n=v.find(e=>e.articleId===t.id),r=ee.find(e=>e.order===t.order-1),i=ee.find(e=>e.order===t.order+1);return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsxs)(`div`,{className:`article-header`,children:[n&&(0,b.jsx)(`div`,{className:`article-header__area`,children:n.area}),(0,b.jsx)(`h1`,{className:`article-h1`,children:t.title}),(0,b.jsx)(`p`,{className:`article-dek`,children:t.dek})]}),(0,b.jsx)(`div`,{className:`article-body`,children:C(t.body)}),w(t.id)&&(0,b.jsx)(`div`,{dangerouslySetInnerHTML:{__html:w(t.id)}}),(0,b.jsxs)(`div`,{className:`article-sources`,children:[(0,b.jsx)(`div`,{className:`article-sources__label`,children:`出典`}),(0,b.jsx)(`ul`,{style:{margin:0,paddingLeft:18},children:t.sources.map(e=>(0,b.jsx)(`li`,{children:(0,b.jsx)(`a`,{href:e.url,target:`_blank`,rel:`noopener noreferrer`,children:e.label})},e.url))})]}),(0,b.jsxs)(`div`,{className:`article-nav`,children:[r?(0,b.jsxs)(`a`,{href:m(`/articles/${r.id}/`),children:[`← `,r.title]}):(0,b.jsx)(`span`,{}),i?(0,b.jsxs)(`a`,{href:m(`/articles/${i.id}/`),children:[i.title,` →`]}):(0,b.jsx)(`span`,{})]})]})}function ae({title:e,content:t}){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)(`h1`,{className:`content-h1`,children:e}),(0,b.jsx)(`div`,{className:`content-body`,children:C(t)})]})}function oe(){let[e,t]=(0,l.useState)(f());return(0,l.useEffect)(()=>{let e=()=>t(f());return window.addEventListener(`popstate`,e),()=>window.removeEventListener(`popstate`,e)},[]),e}function se(){let e=oe(),t=(0,l.useCallback)(e=>{let t=e.target.closest(`a`);if(!t)return;let n=t.getAttribute(`href`);n&&n.startsWith(`/fukagawa-history`)&&t.target!==`_blank`&&(e.preventDefault(),p(n.slice(17)||`/`))},[]),n,r=e.match(/^\/articles\/([a-z-]+)\/?$/);return n=e===`/`?(0,b.jsx)(x,{}):e===`/articles/`?(0,b.jsx)(S,{}):r?(0,b.jsx)(ie,{id:r[1]},r[1]):e===`/about/`?(0,b.jsx)(ae,{title:`このサイトについて`,content:g}):e===`/privacy/`?(0,b.jsx)(ae,{title:`プライバシーポリシー`,content:_}):(0,b.jsx)(ce,{}),(0,b.jsxs)(`div`,{className:`site-shell`,onClick:t,children:[(0,b.jsx)(`header`,{className:`site-header`,children:(0,b.jsxs)(`div`,{className:`site-header__inner`,children:[(0,b.jsx)(`div`,{className:`site-header__title`,children:(0,b.jsx)(`a`,{href:m(`/`),children:h})}),(0,b.jsxs)(`nav`,{className:`site-header__nav`,children:[(0,b.jsx)(`a`,{href:m(`/articles/`),children:`記事一覧`}),(0,b.jsx)(`a`,{href:m(`/about/`),children:`このサイトについて`})]})]})}),(0,b.jsx)(`main`,{className:`site-main`,children:n}),(0,b.jsxs)(`footer`,{className:`site-footer`,children:[(0,b.jsx)(`a`,{href:m(`/about/`),children:`このサイトについて`}),` ／ `,(0,b.jsx)(`a`,{href:m(`/privacy/`),children:`プライバシーポリシー`})]})]})}function ce(){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)(`h1`,{className:`content-h1`,children:`ページが見つかりません`}),(0,b.jsx)(`p`,{className:`content-p`,children:(0,b.jsx)(`a`,{href:m(`/`),children:`トップへ戻る`})})]})}(0,u.createRoot)(document.getElementById(`root`)).render((0,b.jsx)(l.StrictMode,{children:(0,b.jsx)(se,{})}));
