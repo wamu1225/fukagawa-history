@@ -16,8 +16,8 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" v
     <path d="M -40 40 Q 220 -60, 480 40 T 1000 40 T 1300 40" fill="none" stroke="#1b4b43" stroke-width="10" stroke-linecap="round" opacity="0.25"/>
     <path d="M -40 110 Q 220 10, 480 110 T 1000 110 T 1300 110" fill="none" stroke="#1b4b43" stroke-width="10" stroke-linecap="round" opacity="0.15"/>
   </g>
-  <text x="96" y="230" font-family="${FONT_SERIF}" font-size="72" font-weight="700" fill="#1b4b43">深川さんぽ史</text>
-  <text x="96" y="300" font-family="${FONT_SANS}" font-size="26" fill="#6b6259">街路の形に残る運河の記憶をたどる</text>
+  <text x="96" y="230" font-family="${FONT_SERIF}" font-size="60" font-weight="700" fill="#1b4b43">深川の歴史と文化ガイド</text>
+  <text x="96" y="300" font-family="${FONT_SANS}" font-size="26" fill="#6b6259">地名の由来から運河網、芭蕉、深川めしまで</text>
   <line x1="96" y1="340" x2="560" y2="340" stroke="#b5533c" stroke-width="2"/>
   <text x="96" y="390" font-family="${FONT_SANS}" font-size="24" fill="#1b4b43" font-weight="600">study-apps.com/fukagawa-history/</text>
 </svg>`;

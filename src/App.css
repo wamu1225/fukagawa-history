@@ -97,76 +97,55 @@
   margin-bottom: 16px;
 }
 
-.route-heading {
+/* ── Category groups（トップ・分野別＝O-2-30で亀戸型へ移行） ─── */
+.category-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.category-group {
+  border-radius: 6px;
+  padding: 18px 20px;
+  border-left: 4px solid var(--teal);
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.category-group__title {
   font-family: 'Hiragino Mincho ProN', 'Yu Mincho', serif;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: var(--teal-deep);
-  margin: 0 0 20px;
-  padding-bottom: 8px;
+  margin: 0 0 14px;
+  padding-bottom: 6px;
   border-bottom: 2px solid var(--brick-soft);
 }
 
-/* ── Route stepper (signature experience) ───── */
-.route-list {
-  position: relative;
-  padding-left: 36px;
-}
-
-.route-list::before {
-  content: '';
-  position: absolute;
-  left: 13px;
-  top: 8px;
-  bottom: 8px;
-  width: 2px;
-  background: var(--line);
-}
-
-.route-stop {
-  position: relative;
-  margin-bottom: 28px;
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-
-.route-stop__marker {
-  position: absolute;
-  left: -36px;
-  top: 2px;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: var(--teal);
-  color: #fff;
-  font-size: 0.8rem;
-  font-weight: 700;
+.category-group__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 3px solid var(--paper);
-  box-shadow: 0 0 0 1px var(--line);
+  flex-direction: column;
+  gap: 16px;
 }
 
-.route-stop__marker--context {
-  background: var(--brick);
-}
-
-.route-stop__area {
-  font-size: 0.78rem;
-  color: var(--brick);
-  font-weight: 600;
-}
-
-.route-stop__tag {
-  display: inline-block;
-  margin-left: 8px;
-  padding: 1px 7px;
-  border-radius: 3px;
-  background: var(--brick-soft);
-  color: var(--teal-deep);
-  font-size: 0.72rem;
+.category-group__list a {
+  font-size: 1.05rem;
   font-weight: 700;
+  color: var(--teal-deep);
+  text-decoration: none;
+}
+
+.category-group__list a:hover {
+  text-decoration: underline;
+}
+
+.category-group__dek {
+  margin: 4px 0 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .fig--map svg {
@@ -237,23 +216,6 @@
 
 .fig-map__key .fig-map__dot--context {
   color: var(--brick);
-}
-
-.route-stop__name {
-  font-size: 1.08rem;
-  font-weight: 700;
-  color: var(--teal-deep);
-  margin: 2px 0 6px;
-}
-
-.route-stop__today {
-  font-size: 0.92rem;
-  line-height: 1.75;
-  color: var(--ink);
-}
-
-.route-stop__today strong {
-  color: var(--teal-deep);
 }
 
 /* ── Article ──────────────────────────────── */
@@ -359,6 +321,15 @@
   padding: 14px 0;
 }
 
+.article-index-list__category {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
 .article-index-list a {
   color: var(--teal-deep);
   font-weight: 700;
@@ -404,13 +375,5 @@
   .site-header__nav {
     gap: 14px;
     font-size: 0.78rem;
-  }
-  .route-list {
-    padding-left: 30px;
-  }
-  .route-stop__marker {
-    left: -30px;
-    width: 24px;
-    height: 24px;
   }
 }

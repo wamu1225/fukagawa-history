@@ -3,8 +3,7 @@
 // 実行: npx tsx scripts/prerender.ts（npm run predeploy 内）
 import * as fs from 'fs';
 import * as path from 'path';
-import { articles } from '../src/data/articles';
-import { routeStops } from '../src/data/route';
+import { articles, CATEGORY_LABEL, type Category } from '../src/data/articles';
 import { ABOUT_CONTENT, PRIVACY_CONTENT, SITE_NAME } from '../src/data/static-pages';
 import { figureHtml } from '../src/data/figures-data';
 
@@ -12,6 +11,7 @@ const DIST_DIR = path.resolve(process.cwd(), 'dist');
 const INDEX_HTML_PATH = path.join(DIST_DIR, 'index.html');
 const BASE = '/fukagawa-history';
 const BASE_URL = 'https://study-apps.com/fukagawa-history';
+const SITE_UPDATED_AT = '2026-09-13';
 
 console.log('--- fukagawa-history SSG Pre-rendering ---');
 if (!fs.existsSync(INDEX_HTML_PATH)) {
@@ -42,7 +42,7 @@ function mdToHtml(content: string): string {
 }
 
 function applyMeta(html: string, title: string, description: string, urlPath: string): string {
-  const fullTitle = urlPath === '/' ? '深川さんぽ史｜街路の形に残る運河の記憶をたどる' : `${title}｜${SITE_NAME}`;
+  const fullTitle = urlPath === '/' ? SITE_NAME : `${title}｜${SITE_NAME}`;
   const url = `${BASE_URL}${urlPath}`;
   return html
     .replace(/<title>.*?<\/title>/, `<title>${esc(fullTitle)}</title>`)
@@ -74,20 +74,25 @@ function wrap(depth: number, title: string, desc: string, urlPath: string, bodyH
   return html;
 }
 
-// ── トップ（さんぽルート） ──
+// ── トップ（分野別の入口＝亀戸型・O-2-30） ──
 const homeDesc =
-  '深川の不自然に広い道や蛇行する緑地は、運河の埋立跡。小名木川、油堀川、木場など9地点を歩いて確かめる深川さんぽガイド。';
-const routeRows = routeStops
-  .map(
-    (s) =>
-      `<li><a href="${BASE}/articles/${s.articleId}/" style="color:#1b4b43"><strong>${s.order}. ${esc(s.name)}</strong></a>（${esc(s.area)}）：${esc(s.whatYouSeeToday)}</li>`,
-  )
-  .join('\n');
+  '東京都江東区深川の歴史と文化を一次資料でまとめる。地名の由来、運河網の形成、松尾芭蕉、富岡八幡宮、深川めしまで。';
+const CATEGORY_ORDER: Category[] = ['name-origin', 'history', 'shrine', 'food', 'industry', 'culture', 'spots', 'faq'];
+const groupedHtml = CATEGORY_ORDER.map((cat) => {
+  const list = articles.filter((a) => a.category === cat);
+  if (list.length === 0) return '';
+  const rows = list
+    .map(
+      (a) =>
+        `<li><a href="${BASE}/articles/${a.id}/" style="color:#1b4b43"><strong>${esc(a.title)}</strong></a><br/><span style="color:#6b6259;font-size:0.88rem">${esc(a.dek)}</span></li>`,
+    )
+    .join('\n');
+  return `<h2 style="font-size:1.15rem;margin:24px 0 8px;color:#1b4b43">${esc(CATEGORY_LABEL[cat])}</h2>\n<ul style="padding-left:18px">${rows}</ul>`;
+}).join('\n');
 const homeBody = `<article style="${shellStyle}">
   <h1 style="${h1Style}">${SITE_NAME}</h1>
   <p>${esc(homeDesc)}</p>
-  <h2 style="font-size:1.15rem;margin:24px 0 8px;color:#1b4b43">深川さんぽルート</h2>
-  <ol style="padding-left:18px">${routeRows}</ol>
+  ${groupedHtml}
   ${footerNav}
 </article>`;
 writePage(
@@ -105,9 +110,12 @@ console.log('✓ トップページ');
 
 // ── 記事一覧 ──
 {
-  const desc = '深川の水路と土地の歴史をテーマ別にまとめた10本の記事の一覧です。';
+  const desc = '深川の地名の由来から、運河網、松尾芭蕉、富岡八幡宮、深川めしまでをまとめた記事一覧です。';
   const rows = articles
-    .map((a) => `<li><a href="${BASE}/articles/${a.id}/" style="color:#1b4b43">${esc(a.title)}</a>：${esc(a.dek)}</li>`)
+    .map(
+      (a) =>
+        `<li>[${CATEGORY_LABEL[a.category]}] <a href="${BASE}/articles/${a.id}/" style="color:#1b4b43">${esc(a.title)}</a>：${esc(a.dek)}</li>`,
+    )
     .join('\n');
   const body = `<article style="${shellStyle}">
     <h1 style="${h1Style}">記事一覧</h1>
@@ -135,6 +143,7 @@ for (const a of articles) {
     .join('\n');
   const fig = figureHtml(a.id);
   const body = `<article style="${shellStyle}">
+    <p style="display:inline-block;font-size:0.74rem;padding:3px 10px;border-radius:12px;color:#fff;background:#1b4b43">${esc(CATEGORY_LABEL[a.category])}</p>
     <h1 style="${h1Style}">${esc(a.title)}</h1>
     <p style="color:#6b6259">${esc(a.dek)}</p>
     ${mdToHtml(a.body)}
@@ -159,7 +168,7 @@ for (const a of articles) {
     }),
   );
 }
-console.log('✓ /articles/<id>/ 全10件');
+console.log(`✓ /articles/<id>/ 全${articles.length}件`);
 
 // ── about / privacy ──
 for (const [slug, title, desc, content] of [
@@ -185,18 +194,17 @@ for (const [slug, title, desc, content] of [
 }
 console.log('✓ /about/ /privacy/');
 
-// ── sitemap.xml ──
-const today = new Date().toISOString().split('T')[0];
+// ── sitemap.xml（lastmodはページ単位＝O-2-27の教訓。全URL一律の日付にしない） ──
 const urls = [
-  { loc: `${BASE_URL}/`, priority: '1.0' },
-  { loc: `${BASE_URL}/articles/`, priority: '0.8' },
-  ...articles.map((a) => ({ loc: `${BASE_URL}/articles/${a.id}/`, priority: '0.7' })),
-  { loc: `${BASE_URL}/about/`, priority: '0.3' },
-  { loc: `${BASE_URL}/privacy/`, priority: '0.2' },
+  { loc: `${BASE_URL}/`, priority: '1.0', lastmod: SITE_UPDATED_AT },
+  { loc: `${BASE_URL}/articles/`, priority: '0.8', lastmod: SITE_UPDATED_AT },
+  ...articles.map((a) => ({ loc: `${BASE_URL}/articles/${a.id}/`, priority: '0.7', lastmod: a.updatedAt })),
+  { loc: `${BASE_URL}/about/`, priority: '0.3', lastmod: SITE_UPDATED_AT },
+  { loc: `${BASE_URL}/privacy/`, priority: '0.2', lastmod: SITE_UPDATED_AT },
 ];
 const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.map((u) => `  <url><loc>${u.loc}</loc><lastmod>${today}</lastmod><priority>${u.priority}</priority></url>`).join('\n')}
+${urls.map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority}</priority></url>`).join('\n')}
 </urlset>`;
 fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), sitemapXml);
 console.log(`✓ sitemap.xml（全${urls.length}URL）`);

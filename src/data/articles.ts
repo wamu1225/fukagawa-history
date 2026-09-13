@@ -3,11 +3,25 @@ export interface SourceLink {
   url: string;
 }
 
+export type Category = 'name-origin' | 'history' | 'shrine' | 'food' | 'industry' | 'culture' | 'spots' | 'faq';
+
+export const CATEGORY_LABEL: Record<Category, string> = {
+  'name-origin': '地名の由来',
+  history: '通史',
+  shrine: '社寺・信仰',
+  food: '名物・食',
+  industry: '産業・生業',
+  culture: '文化・文学・芸能',
+  spots: '見どころ',
+  faq: 'よくある誤解',
+};
+
 export interface Article {
   id: string;
   order: number;
   title: string;
   dek: string;
+  category: Category;
   sources: SourceLink[];
   updatedAt: string;
   body: string;
@@ -15,23 +29,45 @@ export interface Article {
 
 export const articles: Article[] = [
   {
-    id: 'fukagawa-origin',
+    id: 'chimei',
     order: 1,
+    title: '「深川」という地名——家康に姓を差し出した男の話',
+    dek: '摂津から来た深川八郎右衛門の姓が、そのまま村の名前になった経緯。',
+    category: 'name-origin',
+    updatedAt: '2026-09-13',
+    sources: [
+      { label: '深川神明宮公式サイト「御由緒」', url: 'https://www.fukagawa-shinmei.com/roots.html' },
+      { label: '江東区公式「江東区の地名由来」', url: 'https://www.city.koto.lg.jp/103020/bunkasports/bunka/joho/6379.html' },
+    ],
+    body: `深川という地名は、川や地形にちなんだものではない。ここを開拓した一人の人物の姓がそのまま村の名前になったという、やや変わった由来を持つ。
+
+## 家康に地名を尋ねられた男
+
+深川神明宮の由緒によれば、摂津国（現在の大阪府）から移り住んだ深川八郎右衛門という人物が、葦の生い茂る三角州だったこの土地を開拓していた。慶長元年（1596年）、この地を巡視した徳川家康が地名を尋ねたところ、八郎右衛門は「まだ住む人も少なく、決まった地名もありません」と答えたと伝えられている。これを聞いた家康は、八郎右衛門の姓「深川」を地名とするよう命じ、以後この一帯は「深川村」と呼ばれるようになった。
+
+摂津から来た人々が江戸のこの土地の開発に長けていたのには理由がある。彼らは淀川河口の低湿地を干拓してきた経験を持っており、隅田川・荒川の河口に広がる同じような干潟の開拓に、その技術をそのまま生かすことができたのである。
+
+## 深川神明宮、地名発祥の証
+
+八郎右衛門は自分の屋敷内に、深く信仰していた伊勢神宮の分霊を祀る小さな祠を建てた。これが、現在も江東区森下1丁目に鎮座する深川神明宮の起源である。祭神は天照大御神で、伊勢神宮の式年遷宮のたびに、神宝や社殿の古材が譲り受けられてきたという特別な関係を持つ。八郎右衛門はその後、開拓の功績により代々深川一帯27か町の名主を務めた。
+
+深川神明宮は、深川という地名そのものの発祥を伝える、もう一つの「現地で見られるもの」である。運河の跡を歩く前に、この地名の由来を知っておくと、なぜここが「深川」と呼ばれるのかという素朴な疑問に、はっきりと答えられるようになる。`,
+  },
+  {
+    id: 'fukagawa-origin',
+    order: 2,
     title: '深川はどうやってできたか',
     dek: '干潟だった土地が、運河が張り巡らされた水運都市に変わるまで。',
+    category: 'history',
     updatedAt: '2026-09-09',
     sources: [
       { label: '江東区公式「江東区の地名由来」', url: 'https://www.city.koto.lg.jp/103020/bunkasports/bunka/joho/6379.html' },
       { label: 'ROIS-DS人文学オープンデータ共同利用センター「江戸マップ」深川絵図（尾張屋版）', url: 'https://codh.rois.ac.jp/edo-maps/owariya/14/' },
       { label: '同「深川絵図（現代位置合わせ地図）」', url: 'https://codh.rois.ac.jp/edo-maps/owariya/14/georef/' },
     ],
-    body: `江戸時代より前、今の江東区西部にあたる深川一帯は、隅田川と荒川の河口に広がる遠浅の干潟と湿地だった。人が住む土地としてこの場所が動き出すのは、徳川家康の江戸入りにともなうインフラ整備がきっかけになる。
+    body: `江戸時代より前、今の江東区西部にあたる深川一帯は、隅田川と荒川の河口に広がる遠浅の干潟と湿地だった。人が住む土地としてこの場所が動き出すのは、徳川家康の江戸入りにともなうインフラ整備がきっかけになる。摂津国から移り住んだ深川八郎右衛門という人物がこの地を開拓し、その姓が地名の由来になったといういきさつは、「地名の由来」の記事で詳しく紹介している。
 
 天正18年（1590年）ごろ、行徳の塩田から江戸へ塩を運ぶための水路として、小名木川が開かれた。この川の開削を境に、北岸と南岸の両方で埋め立てと開墾が進んでいく。
-
-## 「深川」という地名
-
-江東区の公式サイトによると、慶長年間（1596〜1615年）の初め、摂津国（現在の大阪府と兵庫県にまたがる地域）から移り住んだ深川八郎右衛門という人物が、小名木川の北岸一帯を開拓した。その姓がそのまま村の名前になったというのが、地名の由来として伝えられている。
 
 ## 大火のあとの急速な埋め立て
 
@@ -45,7 +81,8 @@ export const articles: Article[] = [
   },
   {
     id: 'onagigawa',
-    order: 2,
+    order: 3,
+    category: 'industry',
     title: '小名木川、今も流れる運河',
     dek: '埋め立てられず、開削から400年以上経った今も水面を保つ深川最古の運河。',
     updatedAt: '2026-09-09',
@@ -75,7 +112,8 @@ export const articles: Article[] = [
   },
   {
     id: 'saito-an',
-    order: 3,
+    order: 4,
+    category: 'culture',
     title: '松尾芭蕉が「おくのほそ道」へ出発した採荼庵',
     dek: '小名木川を舟で下って旅立った、芭蕉庵ではなく採荼庵という別の庵。',
     updatedAt: '2026-09-09',
@@ -99,7 +137,8 @@ export const articles: Article[] = [
   },
   {
     id: 'fukagawa-edo-museum',
-    order: 4,
+    order: 5,
+    category: 'spots',
     title: '深川江戸資料館に見る、水路に面した町の暮らし',
     dek: '運河がまだ生きていた頃、人と物資はどう行き交っていたのか。',
     updatedAt: '2026-09-09',
@@ -122,7 +161,8 @@ export const articles: Article[] = [
   },
   {
     id: 'sendaibori-furuishiba',
-    order: 5,
+    order: 6,
+    category: 'industry',
     title: '仙台堀川と古石場川、親水公園に姿を変えた運河',
     dek: '運河そのものの幅とカーブが、そのまま公園の形になって残っている場所。',
     updatedAt: '2026-09-09',
@@ -144,7 +184,8 @@ export const articles: Article[] = [
   },
   {
     id: 'aburabori-shutoko',
-    order: 6,
+    order: 7,
+    category: 'industry',
     title: '油堀川跡と首都高速9号深川線、高架の下に残る川幅',
     dek: '別名「十五間川」、幅28mの運河が、そのまま高架の川幅として残っている。',
     updatedAt: '2026-09-09',
@@ -170,7 +211,8 @@ export const articles: Article[] = [
   },
   {
     id: 'tomioka-hachimangu',
-    order: 7,
+    order: 8,
+    category: 'shrine',
     title: '富岡八幡宮に残る勧進相撲と伊能忠敬の記憶',
     dek: '和倉橋跡のすぐ南、油堀川と隣り合って400年近くこの地にある神社。',
     updatedAt: '2026-09-09',
@@ -199,7 +241,8 @@ export const articles: Article[] = [
   },
   {
     id: 'ogyoku-heikyu',
-    order: 8,
+    order: 9,
+    category: 'industry',
     title: '大横川と平久川、木場の西側に残る運河網',
     dek: '仙台堀川や油堀川と違い、埋め立てられずに今も水面を保つ2本の川。',
     updatedAt: '2026-09-09',
@@ -225,7 +268,8 @@ export const articles: Article[] = [
   },
   {
     id: 'kiba',
-    order: 9,
+    order: 10,
+    category: 'industry',
     title: '木場の移り変わり、貯木場から防災公園へ',
     dek: '江戸の建築需要を支えた材木の集積地は、なぜ緑地に変わったのか。',
     updatedAt: '2026-09-09',
@@ -251,7 +295,8 @@ export const articles: Article[] = [
   },
   {
     id: 'fukagawa-meshi',
-    order: 10,
+    order: 11,
+    category: 'food',
     title: '深川めしと、失われた干潟の記憶',
     dek: '運河だけでなく、東京湾の干潟も深川の暮らしを形づくっていた。',
     updatedAt: '2026-09-09',
