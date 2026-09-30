@@ -32,12 +32,14 @@ function templateForDepth(depth: number): string {
 const esc = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
+const linkify = (s: string) => s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, label, url) => `<a href="${url}">${label}</a>`);
+
 function mdToHtml(content: string): string {
   return content
     .split(/\n{2,}/)
     .map((b) => b.trim())
     .filter(Boolean)
-    .map((b) => (b.startsWith('## ') ? `<h2>${esc(b.slice(3))}</h2>` : `<p>${esc(b)}</p>`))
+    .map((b) => (b.startsWith('## ') ? `<h2>${linkify(esc(b.slice(3)))}</h2>` : `<p>${linkify(esc(b))}</p>`))
     .join('\n');
 }
 
@@ -136,7 +138,7 @@ console.log('✓ トップページ');
 }
 console.log('✓ /articles/');
 
-// ── 記事本体（8件） ──
+// ── 記事本体 ──
 for (const a of articles) {
   const sourcesHtml = a.sources
     .map((s) => `<li><a href="${esc(s.url)}" style="color:#1b4b43">${esc(s.label)}</a></li>`)

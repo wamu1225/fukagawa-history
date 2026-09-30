@@ -63,7 +63,7 @@ function buildRouteMapSvg(): string {
 
   return `<figure class="fig fig--map">
   <svg viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="map-title map-desc">
-    <title id="map-title">深川の運河跡9地点、実座標にもとづく位置関係図</title>
+    <title id="map-title">深川の運河跡${routeStops.length}地点、実座標にもとづく位置関係図</title>
     <desc id="map-desc">各地点の緯度経度から算出した相対位置を示す図。測量精度の地図ではなく、公表されている座標や住所にもとづく概略図。番号は下の凡例と対応する。</desc>
     <polyline points="${line}" fill="none" stroke="#a89f92" stroke-width="2" stroke-dasharray="3 5" />
     ${dots}
@@ -92,7 +92,7 @@ function buildRouteMapSvg(): string {
       <span class="fig-map__key-item"><span class="fig-map__dot fig-map__dot--context">●</span>寄り道（文脈）</span>
     </p>
   </div>
-  <figcaption>9地点の位置関係を、各地点の緯度経度から算出して描いた図。座標は駅や施設の公表座標、または住所と徒歩分数からの概算であり、測量精度ではない。正確な現代地図との重ね合わせは、ROIS-DS人文学オープンデータ共同利用センターの「深川絵図（現代位置合わせ地図）」で確認できる（出典参照）。</figcaption>
+  <figcaption>${routeStops.length}地点の位置関係を、各地点の緯度経度から算出して描いた図。座標は駅や施設の公表座標、または住所と徒歩分数からの概算であり、測量精度ではない。正確な現代地図との重ね合わせは、ROIS-DS人文学オープンデータ共同利用センターの「深川絵図（現代位置合わせ地図）」で確認できる（出典参照）。</figcaption>
 </figure>`;
 }
 
