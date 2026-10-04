@@ -250,52 +250,52 @@ Error generating stack: `+e.message+`
   </div>
   <figcaption>${te.length}地点の位置関係を、各地点の緯度経度から算出して描いた図。座標は駅や施設の公表座標、または住所と徒歩分数からの概算であり、測量精度ではない。正確な現代地図との重ね合わせは、ROIS-DS人文学オープンデータ共同利用センターの「深川絵図（現代位置合わせ地図）」で確認できる（出典参照）。</figcaption>
 </figure>`}var se={"fukagawa-origin":{html:oe()},"aburabori-shutoko":{html:`<figure class="fig">
-  <svg viewBox="0 0 640 220" role="img" aria-labelledby="abura-title abura-desc">
+  <svg viewBox="0 0 300 210" width="100%" role="img" aria-labelledby="abura-title abura-desc">
     <title id="abura-title">油堀川がそのまま首都高速9号深川線の川幅になった断面図</title>
     <desc id="abura-desc">かつて川幅いっぱいに水が流れていた場所に、同じ幅で高架道路が架けられている様子を示す模式図。</desc>
-    <g transform="translate(20,20)">
-      <text x="0" y="0" font-size="14" fill="#6b6259">かつて</text>
-      <rect x="0" y="14" width="260" height="70" fill="none" stroke="#ddd3bf" stroke-width="2" />
-      <path d="M 10 60 Q 60 40, 110 60 T 210 60 T 250 60" fill="none" stroke="#1b4b43" stroke-width="18" stroke-linecap="round" opacity="0.55" />
-      <text x="10" y="100" font-size="12" fill="#2b2420">油堀川（水路）</text>
+    <g transform="translate(20,14)">
+      <text x="0" y="0" font-size="13" fill="#6b6259">かつて</text>
+      <rect x="0" y="10" width="260" height="60" fill="none" stroke="#ddd3bf" stroke-width="2" />
+      <path d="M 10 50 Q 60 32, 110 50 T 210 50 T 250 50" fill="none" stroke="#1b4b43" stroke-width="16" stroke-linecap="round" opacity="0.55" />
+      <text x="10" y="86" font-size="12" fill="#2b2420">油堀川（水路）</text>
     </g>
-    <g transform="translate(360,20)">
-      <text x="0" y="0" font-size="14" fill="#6b6259">今</text>
-      <rect x="0" y="14" width="260" height="70" fill="none" stroke="#ddd3bf" stroke-width="2" />
-      <rect x="0" y="40" width="260" height="10" fill="#b5533c" />
-      <rect x="15" y="50" width="8" height="34" fill="#b5533c" />
-      <rect x="80" y="50" width="8" height="34" fill="#b5533c" />
-      <rect x="145" y="50" width="8" height="34" fill="#b5533c" />
-      <rect x="210" y="50" width="8" height="34" fill="#b5533c" />
-      <text x="10" y="100" font-size="12" fill="#2b2420">首都高速9号深川線（高架）</text>
-    </g>
-    <line x1="290" y1="60" x2="350" y2="60" stroke="#6b6259" stroke-width="2" marker-end="url(#abura-arrow)" />
+    <line x1="150" y1="104" x2="150" y2="124" stroke="#6b6259" stroke-width="2" marker-end="url(#abura-arrow)" />
     <defs>
-      <marker id="abura-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-        <path d="M0,0 L8,4 L0,8 Z" fill="#6b6259" />
+      <marker id="abura-arrow" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto">
+        <path d="M0,0 L4,8 L8,0 Z" fill="#6b6259" />
       </marker>
     </defs>
+    <g transform="translate(20,128)">
+      <text x="0" y="0" font-size="13" fill="#6b6259">今</text>
+      <rect x="0" y="10" width="260" height="60" fill="none" stroke="#ddd3bf" stroke-width="2" />
+      <rect x="0" y="34" width="260" height="10" fill="#b5533c" />
+      <rect x="15" y="44" width="8" height="26" fill="#b5533c" />
+      <rect x="80" y="44" width="8" height="26" fill="#b5533c" />
+      <rect x="145" y="44" width="8" height="26" fill="#b5533c" />
+      <rect x="210" y="44" width="8" height="26" fill="#b5533c" />
+      <text x="10" y="86" font-size="12" fill="#2b2420">首都高速9号深川線（高架）</text>
+    </g>
   </svg>
   <figcaption>水路の川幅と、頭上を通る高架の幅はほぼ同じ。埋め立てられたあとも、土地の区画としての幅は引き継がれている。</figcaption>
 </figure>`},"sendaibori-furuishiba":{html:`<figure class="fig">
-  <svg viewBox="0 0 640 220" role="img" aria-labelledby="canal-title canal-desc">
+  <svg viewBox="0 0 300 210" width="100%" role="img" aria-labelledby="canal-title canal-desc">
     <title id="canal-title">運河のカーブがそのまま親水公園の遊歩道の形になった模式図</title>
     <desc id="canal-desc">蛇行していた水路の形が、埋め立て後の親水公園の遊歩道の曲線としてそのまま残っている様子を示す模式図。</desc>
-    <g transform="translate(20,20)">
-      <text x="0" y="0" font-size="14" fill="#6b6259">かつて（水路）</text>
-      <path d="M 10 100 Q 60 40, 120 80 T 240 60" fill="none" stroke="#1b4b43" stroke-width="22" stroke-linecap="round" opacity="0.55" />
+    <g transform="translate(20,14)">
+      <text x="0" y="0" font-size="13" fill="#6b6259">かつて（水路）</text>
+      <path d="M 10 70 Q 45 30, 85 56 T 170 46 T 250 50" fill="none" stroke="#1b4b43" stroke-width="16" stroke-linecap="round" opacity="0.55" />
     </g>
-    <g transform="translate(360,20)">
-      <text x="0" y="0" font-size="14" fill="#6b6259">今（親水公園）</text>
-      <path d="M 10 100 Q 60 40, 120 80 T 240 60" fill="none" stroke="#8fae86" stroke-width="22" stroke-linecap="round" opacity="0.5" />
-      <path d="M 10 100 Q 60 40, 120 80 T 240 60" fill="none" stroke="#b5533c" stroke-width="2" stroke-dasharray="4 5" />
-    </g>
-    <line x1="290" y1="90" x2="350" y2="90" stroke="#6b6259" stroke-width="2" marker-end="url(#canal-arrow)" />
+    <line x1="150" y1="100" x2="150" y2="120" stroke="#6b6259" stroke-width="2" marker-end="url(#canal-arrow)" />
     <defs>
-      <marker id="canal-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-        <path d="M0,0 L8,4 L0,8 Z" fill="#6b6259" />
+      <marker id="canal-arrow" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto">
+        <path d="M0,0 L4,8 L8,0 Z" fill="#6b6259" />
       </marker>
     </defs>
+    <g transform="translate(20,124)">
+      <text x="0" y="0" font-size="13" fill="#6b6259">今（親水公園）</text>
+      <path d="M 10 70 Q 45 30, 85 56 T 170 46 T 250 50" fill="none" stroke="#8fae86" stroke-width="16" stroke-linecap="round" opacity="0.5" />
+      <path d="M 10 70 Q 45 30, 85 56 T 170 46 T 250 50" fill="none" stroke="#b5533c" stroke-width="2" stroke-dasharray="4 5" />
+    </g>
   </svg>
   <figcaption>水路の蛇行は、道路として新しく作られたものではないため直線にならない。同じカーブが遊歩道の形として残る。</figcaption>
 </figure>`}};function ce(e){return se[e]?.html??null}function le({id:e}){let t=y.find(t=>t.id===e);if(!t)return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(`h1`,{className:`content-h1`,children:`記事が見つかりません`}),(0,x.jsx)(`p`,{className:`content-p`,children:(0,x.jsx)(`a`,{href:m(`/articles/`),children:`記事一覧に戻る`})})]});let n=te.find(e=>e.articleId===t.id),r=y.find(e=>e.order===t.order-1),i=y.find(e=>e.order===t.order+1),a=w(t.body);return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsxs)(`div`,{className:`article-header`,children:[n&&(0,x.jsx)(`div`,{className:`article-header__area`,children:n.area}),(0,x.jsx)(`h1`,{className:`article-h1`,children:t.title}),(0,x.jsx)(`p`,{className:`article-dek`,children:t.dek})]}),a.length>=2&&(0,x.jsxs)(`nav`,{className:`article-toc`,"aria-label":`目次`,children:[(0,x.jsx)(`p`,{className:`article-toc__label`,children:`目次`}),(0,x.jsx)(`ol`,{children:a.map((e,t)=>(0,x.jsx)(`li`,{children:(0,x.jsx)(`a`,{href:`#sec-${t}`,children:e})},e))})]}),(0,x.jsx)(`div`,{className:`article-body`,children:ie(t.body)}),ce(t.id)&&(0,x.jsx)(`div`,{dangerouslySetInnerHTML:{__html:ce(t.id)}}),(0,x.jsxs)(`div`,{className:`article-sources`,children:[(0,x.jsx)(`div`,{className:`article-sources__label`,children:`出典`}),(0,x.jsx)(`ul`,{style:{margin:0,paddingLeft:18},children:t.sources.map(e=>(0,x.jsx)(`li`,{children:(0,x.jsx)(`a`,{href:e.url,target:`_blank`,rel:`noopener noreferrer`,children:e.label})},e.url))})]}),(0,x.jsxs)(`div`,{className:`article-nav`,children:[r?(0,x.jsxs)(`a`,{href:m(`/articles/${r.id}/`),children:[`← `,r.title]}):(0,x.jsx)(`span`,{}),i?(0,x.jsxs)(`a`,{href:m(`/articles/${i.id}/`),children:[i.title,` →`]}):(0,x.jsx)(`span`,{})]})]})}function ue({title:e,content:t}){return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(`h1`,{className:`content-h1`,children:e}),(0,x.jsx)(`div`,{className:`content-body`,children:ie(t)})]})}function T(){let[e,t]=(0,l.useState)(f());return(0,l.useEffect)(()=>{let e=()=>t(f());return window.addEventListener(`popstate`,e),()=>window.removeEventListener(`popstate`,e)},[]),e}function E(){let e=T(),t=(0,l.useCallback)(e=>{let t=e.target.closest(`a`);if(!t)return;let n=t.getAttribute(`href`);n&&n.startsWith(`/fukagawa-history`)&&t.target!==`_blank`&&(e.preventDefault(),p(n.slice(17)||`/`))},[]),n,r=e.match(/^\/articles\/([a-z-]+)\/?$/);return n=e===`/`?(0,x.jsx)(S,{}):e===`/articles/`?(0,x.jsx)(C,{}):r?(0,x.jsx)(le,{id:r[1]},r[1]):e===`/about/`?(0,x.jsx)(ue,{title:`このサイトについて`,content:g}):e===`/privacy/`?(0,x.jsx)(ue,{title:`プライバシーポリシー`,content:_}):(0,x.jsx)(de,{}),(0,x.jsxs)(`div`,{className:`site-shell`,onClick:t,children:[(0,x.jsx)(`header`,{className:`site-header`,children:(0,x.jsxs)(`div`,{className:`site-header__inner`,children:[(0,x.jsx)(`div`,{className:`site-header__title`,children:(0,x.jsx)(`a`,{href:m(`/`),children:h})}),(0,x.jsxs)(`nav`,{className:`site-header__nav`,children:[(0,x.jsx)(`a`,{href:m(`/articles/`),children:`記事一覧`}),(0,x.jsx)(`a`,{href:m(`/about/`),children:`このサイトについて`})]})]})}),(0,x.jsx)(`main`,{className:`site-main`,children:n}),(0,x.jsxs)(`footer`,{className:`site-footer`,children:[(0,x.jsx)(`a`,{href:m(`/about/`),children:`このサイトについて`}),` ／ `,(0,x.jsx)(`a`,{href:m(`/privacy/`),children:`プライバシーポリシー`})]})]})}function de(){return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(`h1`,{className:`content-h1`,children:`ページが見つかりません`}),(0,x.jsx)(`p`,{className:`content-p`,children:(0,x.jsx)(`a`,{href:m(`/`),children:`トップへ戻る`})})]})}(0,u.createRoot)(document.getElementById(`root`)).render((0,x.jsx)(l.StrictMode,{children:(0,x.jsx)(E,{})}));
