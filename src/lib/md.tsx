@@ -21,14 +21,27 @@ function renderInline(text: string, keyPrefix: string): ReactNode[] {
   return nodes;
 }
 
+export function extractHeadings(content: string): string[] {
+  return content
+    .split(/\n{2,}/)
+    .map((b) => b.trim())
+    .filter((b) => b.startsWith('## '))
+    .map((b) => b.slice(3));
+}
+
 export function renderMarkdown(content: string): ReactNode[] {
+  let h2Index = 0;
   return content
     .split(/\n{2,}/)
     .map((b) => b.trim())
     .filter(Boolean)
     .map((block, i) => {
       if (block.startsWith('## ')) {
-        return <h2 key={i}>{renderInline(block.slice(3), `h2-${i}`)}</h2>;
+        return (
+          <h2 key={i} id={`sec-${h2Index++}`}>
+            {renderInline(block.slice(3), `h2-${i}`)}
+          </h2>
+        );
       }
       return <p key={i}>{renderInline(block, `p-${i}`)}</p>;
     });

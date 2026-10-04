@@ -34,13 +34,31 @@ const esc = (s: string) =>
 
 const linkify = (s: string) => s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, label, url) => `<a href="${url}">${label}</a>`);
 
+function extractHeadings(content: string): string[] {
+  return content
+    .split(/\n{2,}/)
+    .map((b) => b.trim())
+    .filter((b) => b.startsWith('## '))
+    .map((b) => b.slice(3));
+}
+
 function mdToHtml(content: string): string {
+  let h2Index = 0;
   return content
     .split(/\n{2,}/)
     .map((b) => b.trim())
     .filter(Boolean)
-    .map((b) => (b.startsWith('## ') ? `<h2>${linkify(esc(b.slice(3)))}</h2>` : `<p>${linkify(esc(b))}</p>`))
+    .map((b) => (b.startsWith('## ') ? `<h2 id="sec-${h2Index++}">${linkify(esc(b.slice(3)))}</h2>` : `<p>${linkify(esc(b))}</p>`))
     .join('\n');
+}
+
+function tocHtml(content: string): string {
+  const headings = extractHeadings(content);
+  if (headings.length < 2) return '';
+  return `<nav aria-label="目次" style="margin:16px 0;padding:12px 16px;background:#fff;border:1px solid #ddd3bf;border-radius:6px">
+    <p style="margin:0 0 6px;font-weight:700;color:#1b4b43">目次</p>
+    <ol style="margin:0;padding-left:18px">${headings.map((h, i) => `<li><a href="#sec-${i}" style="color:#1b4b43">${esc(h)}</a></li>`).join('')}</ol>
+  </nav>`;
 }
 
 function applyMeta(html: string, title: string, description: string, urlPath: string): string {
@@ -148,6 +166,7 @@ for (const a of articles) {
     <p style="display:inline-block;font-size:0.74rem;padding:3px 10px;border-radius:12px;color:#fff;background:#1b4b43">${esc(CATEGORY_LABEL[a.category])}</p>
     <h1 style="${h1Style}">${esc(a.title)}</h1>
     <p style="color:#6b6259">${esc(a.dek)}</p>
+    ${tocHtml(a.body)}
     ${mdToHtml(a.body)}
     ${fig ?? ''}
     <div style="margin-top:24px;padding:14px 16px;background:#fff;border:1px solid #ddd3bf;border-radius:6px">
