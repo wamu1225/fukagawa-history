@@ -273,7 +273,7 @@ Error generating stack: `+e.message+`
       <rect x="80" y="44" width="8" height="26" fill="#b5533c" />
       <rect x="145" y="44" width="8" height="26" fill="#b5533c" />
       <rect x="210" y="44" width="8" height="26" fill="#b5533c" />
-      <text x="10" y="86" font-size="12" fill="#2b2420">首都高速9号深川線（高架）</text>
+      <text x="10" y="80" font-size="12" fill="#2b2420">首都高速9号深川線（高架）</text>
     </g>
   </svg>
   <figcaption>水路の川幅と、頭上を通る高架の幅はほぼ同じ。埋め立てられたあとも、土地の区画としての幅は引き継がれている。</figcaption>
