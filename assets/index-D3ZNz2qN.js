@@ -298,4 +298,73 @@ Error generating stack: `+e.message+`
     </g>
   </svg>
   <figcaption>水路の蛇行は、道路として新しく作られたものではないため直線にならない。同じカーブが遊歩道の形として残る。</figcaption>
+</figure>`},"tomioka-hachimangu":{html:`<figure class="fig">
+  <svg viewBox="0 0 300 110" width="100%" role="img" aria-labelledby="tomioka-title tomioka-desc">
+    <title id="tomioka-title">富岡八幡宮の年表の図</title>
+    <desc id="tomioka-desc">寛永4年（1627年）の創建から、深川八幡祭りの始まり、勧進相撲の解禁、伊能忠敬像の建立までの年表。</desc>
+    <rect width="300" height="110" fill="#f5efe4"/>
+    <line x1="30" y1="54" x2="270" y2="54" stroke="#b9ac94" stroke-width="2.2"/>
+    <path d="M270 54 l-8 -4 M270 54 l-8 4" stroke="#b9ac94" stroke-width="2.2" fill="none"/>
+    <circle cx="40" cy="54" r="9" fill="#1b4b43"/>
+    <text x="40" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1627</text>
+    <text x="40" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">富岡八幡宮</text>
+    <text x="40" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">創建</text>
+    <circle cx="115" cy="54" r="9" fill="#b5533c"/>
+    <text x="115" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1642</text>
+    <text x="115" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">深川八幡祭り</text>
+    <text x="115" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">始まる</text>
+    <circle cx="195" cy="54" r="9" fill="#1b4b43"/>
+    <text x="195" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1684</text>
+    <text x="195" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">境内で勧進</text>
+    <text x="195" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">相撲が解禁</text>
+    <circle cx="260" cy="54" r="9" fill="#2b2420"/>
+    <text x="260" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">2001</text>
+    <text x="260" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">伊能忠敬</text>
+    <text x="260" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">像を建立</text>
+  </svg>
+  <figcaption>富岡八幡宮は寛永4年（1627年）の創建以来、相撲・祭り・測量という性格の異なる3つの歴史を重ねてきました。貞享元年（1684年）に境内での勧進相撲が解禁され、以後およそ100年にわたり本場所が開かれています。</figcaption>
+</figure>`},kiba:{html:`<figure class="fig">
+  <svg viewBox="0 0 300 110" width="100%" role="img" aria-labelledby="kiba-title kiba-desc">
+    <title id="kiba-title">木場の移り変わりの年表の図</title>
+    <desc id="kiba-desc">明暦の大火をきっかけにした材木置場の移転から、現在地への再移転、防災拠点としての位置づけ、新木場への移転までの年表。</desc>
+    <rect width="300" height="110" fill="#f5efe4"/>
+    <line x1="30" y1="54" x2="270" y2="54" stroke="#b9ac94" stroke-width="2.2"/>
+    <path d="M270 54 l-8 -4 M270 54 l-8 4" stroke="#b9ac94" stroke-width="2.2" fill="none"/>
+    <circle cx="40" cy="54" r="9" fill="#b5533c"/>
+    <text x="40" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1657</text>
+    <text x="40" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">明暦の大火</text>
+    <text x="40" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">材木置場を郊外へ</text>
+    <circle cx="125" cy="54" r="9" fill="#1b4b43"/>
+    <text x="125" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1701頃</text>
+    <text x="125" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">現在地へ</text>
+    <text x="125" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">再移転</text>
+    <circle cx="200" cy="54" r="9" fill="#b5533c"/>
+    <text x="200" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1969</text>
+    <text x="200" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">防災拠点に</text>
+    <text x="200" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">位置づけ</text>
+    <circle cx="260" cy="54" r="9" fill="#2b2420"/>
+    <text x="260" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">現在</text>
+    <text x="260" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">木場公園・</text>
+    <text x="260" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">親水公園</text>
+  </svg>
+  <figcaption>約280年にわたって材木を浮かべ続けた貯木場は、昭和44年（1969年）の江東再開発構想で防災拠点と位置づけられ、材木関連業者の新木場移転を経て、今は木場公園・木場親水公園という緑地に変わっています。</figcaption>
+</figure>`},onagigawa:{html:`<figure class="fig">
+  <svg viewBox="0 0 300 160" width="100%" role="img" aria-labelledby="ougi-title ougi-desc">
+    <title id="ougi-title">扇橋閘門が水位差を調整する仕組みの図</title>
+    <desc id="ougi-desc">地盤沈下で生じた最大3mの水位差を、前後の扉で挟んだ閘室の水位を昇降させて調整する断面図。パナマ運河と同じ原理。</desc>
+    <rect width="300" height="160" fill="#f5efe4"/>
+    <text x="20" y="22" font-size="12" fill="#6b6259">東側（高い）</text>
+    <rect x="15" y="30" width="60" height="18" fill="#1b4b43" opacity="0.55"/>
+    <text x="230" y="48" font-size="12" fill="#6b6259">西側（低い）</text>
+    <rect x="225" y="56" width="60" height="18" fill="#1b4b43" opacity="0.55"/>
+    <rect x="75" y="30" width="150" height="44" fill="none" stroke="#b5533c" stroke-width="2"/>
+    <text x="150" y="20" font-size="11.5" font-weight="700" fill="#b5533c" text-anchor="middle">閘室（幅11m・長さ110m）</text>
+    <line x1="75" y1="30" x2="75" y2="74" stroke="#b5533c" stroke-width="3"/>
+    <line x1="225" y1="30" x2="225" y2="74" stroke="#b5533c" stroke-width="3"/>
+    <text x="150" y="58" font-size="11" fill="#2b2420" text-anchor="middle">給排水で水位を約2分で調整</text>
+    <path d="M70 100 q80 -14 160 0" fill="none" stroke="#6b6259" stroke-width="1.6" stroke-dasharray="3 4"/>
+    <text x="150" y="126" font-size="12" font-weight="700" fill="#2b2420" text-anchor="middle">最大水位差 約3m</text>
+    <text x="150" y="146" font-size="11" fill="#6b6259" text-anchor="middle">地盤沈下で東西に生じた差を、扉で挟んで通航</text>
+  </svg>
+  <figcaption>地盤沈下によって小名木川の東側と西側で水位に最大3mの差ができたため、パナマ運河と同じ原理で船を昇降させる「扇橋閘門」が設けられました。前後の扉に挟まれた閘室に船を入れ、給排水で水位を約2分で調整してから反対側へ通します。</figcaption>
 </figure>`}};function ce(e){return se[e]?.html??null}function le({id:e}){let t=y.find(t=>t.id===e);if(!t)return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(`h1`,{className:`content-h1`,children:`記事が見つかりません`}),(0,x.jsx)(`p`,{className:`content-p`,children:(0,x.jsx)(`a`,{href:m(`/articles/`),children:`記事一覧に戻る`})})]});let n=te.find(e=>e.articleId===t.id),r=y.find(e=>e.order===t.order-1),i=y.find(e=>e.order===t.order+1),a=w(t.body);return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsxs)(`div`,{className:`article-header`,children:[n&&(0,x.jsx)(`div`,{className:`article-header__area`,children:n.area}),(0,x.jsx)(`h1`,{className:`article-h1`,children:t.title}),(0,x.jsx)(`p`,{className:`article-dek`,children:t.dek})]}),a.length>=2&&(0,x.jsxs)(`nav`,{className:`article-toc`,"aria-label":`目次`,children:[(0,x.jsx)(`p`,{className:`article-toc__label`,children:`目次`}),(0,x.jsx)(`ol`,{children:a.map((e,t)=>(0,x.jsx)(`li`,{children:(0,x.jsx)(`a`,{href:`#sec-${t}`,children:e})},e))})]}),(0,x.jsx)(`div`,{className:`article-body`,children:ie(t.body)}),ce(t.id)&&(0,x.jsx)(`div`,{dangerouslySetInnerHTML:{__html:ce(t.id)}}),(0,x.jsxs)(`div`,{className:`article-sources`,children:[(0,x.jsx)(`div`,{className:`article-sources__label`,children:`出典`}),(0,x.jsx)(`ul`,{style:{margin:0,paddingLeft:18},children:t.sources.map(e=>(0,x.jsx)(`li`,{children:(0,x.jsx)(`a`,{href:e.url,target:`_blank`,rel:`noopener noreferrer`,children:e.label})},e.url))})]}),(0,x.jsxs)(`div`,{className:`article-nav`,children:[r?(0,x.jsxs)(`a`,{href:m(`/articles/${r.id}/`),children:[`← `,r.title]}):(0,x.jsx)(`span`,{}),i?(0,x.jsxs)(`a`,{href:m(`/articles/${i.id}/`),children:[i.title,` →`]}):(0,x.jsx)(`span`,{})]})]})}function ue({title:e,content:t}){return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(`h1`,{className:`content-h1`,children:e}),(0,x.jsx)(`div`,{className:`content-body`,children:ie(t)})]})}function T(){let[e,t]=(0,l.useState)(f());return(0,l.useEffect)(()=>{let e=()=>t(f());return window.addEventListener(`popstate`,e),()=>window.removeEventListener(`popstate`,e)},[]),e}function E(){let e=T(),t=(0,l.useCallback)(e=>{let t=e.target.closest(`a`);if(!t)return;let n=t.getAttribute(`href`);n&&n.startsWith(`/fukagawa-history`)&&t.target!==`_blank`&&(e.preventDefault(),p(n.slice(17)||`/`))},[]),n,r=e.match(/^\/articles\/([a-z-]+)\/?$/);return n=e===`/`?(0,x.jsx)(S,{}):e===`/articles/`?(0,x.jsx)(C,{}):r?(0,x.jsx)(le,{id:r[1]},r[1]):e===`/about/`?(0,x.jsx)(ue,{title:`このサイトについて`,content:g}):e===`/privacy/`?(0,x.jsx)(ue,{title:`プライバシーポリシー`,content:_}):(0,x.jsx)(de,{}),(0,x.jsxs)(`div`,{className:`site-shell`,onClick:t,children:[(0,x.jsx)(`header`,{className:`site-header`,children:(0,x.jsxs)(`div`,{className:`site-header__inner`,children:[(0,x.jsx)(`div`,{className:`site-header__title`,children:(0,x.jsx)(`a`,{href:m(`/`),children:h})}),(0,x.jsxs)(`nav`,{className:`site-header__nav`,children:[(0,x.jsx)(`a`,{href:m(`/articles/`),children:`記事一覧`}),(0,x.jsx)(`a`,{href:m(`/about/`),children:`このサイトについて`})]})]})}),(0,x.jsx)(`main`,{className:`site-main`,children:n}),(0,x.jsxs)(`footer`,{className:`site-footer`,children:[(0,x.jsx)(`a`,{href:m(`/about/`),children:`このサイトについて`}),` ／ `,(0,x.jsx)(`a`,{href:m(`/privacy/`),children:`プライバシーポリシー`})]})]})}function de(){return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(`h1`,{className:`content-h1`,children:`ページが見つかりません`}),(0,x.jsx)(`p`,{className:`content-p`,children:(0,x.jsx)(`a`,{href:m(`/`),children:`トップへ戻る`})})]})}(0,u.createRoot)(document.getElementById(`root`)).render((0,x.jsx)(l.StrictMode,{children:(0,x.jsx)(E,{})}));
