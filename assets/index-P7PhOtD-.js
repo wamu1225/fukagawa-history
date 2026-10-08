@@ -298,6 +298,61 @@ Error generating stack: `+e.message+`
     </g>
   </svg>
   <figcaption>水路の蛇行は、道路として新しく作られたものではないため直線にならない。同じカーブが遊歩道の形として残る。</figcaption>
+</figure>`},chimei:{html:`<figure class="fig">
+  <svg viewBox="0 0 300 200" width="100%" role="img" aria-labelledby="chimei-title chimei-desc">
+    <title id="chimei-title">深川の地名が生まれるまでの3段階の図</title>
+    <desc id="chimei-desc">摂津出身の深川八郎右衛門による開拓、慶長元年の家康の巡視、姓がそのまま地名になるまでを順に示した流れ図。</desc>
+    <rect width="300" height="200" fill="#f5efe4"/>
+    <rect x="20" y="12" width="260" height="42" rx="3" fill="none" stroke="#1b4b43" stroke-width="2"/>
+    <text x="150" y="30" font-size="12" font-weight="700" fill="#1b4b43" text-anchor="middle">① 開拓</text>
+    <text x="150" y="46" font-size="11.5" fill="#2b2420" text-anchor="middle">摂津出身の深川八郎右衛門が葦の三角州へ</text>
+    <path d="M150 56 v16 m-5 -6 l5 6 l5 -6" stroke="#6b6259" stroke-width="2" fill="none"/>
+    <rect x="20" y="76" width="260" height="42" rx="3" fill="none" stroke="#b5533c" stroke-width="2"/>
+    <text x="150" y="94" font-size="12" font-weight="700" fill="#b5533c" text-anchor="middle">② 1596年（慶長元年）</text>
+    <text x="150" y="110" font-size="11.5" fill="#2b2420" text-anchor="middle">巡視した家康が土地の名を尋ねる</text>
+    <path d="M150 120 v16 m-5 -6 l5 6 l5 -6" stroke="#6b6259" stroke-width="2" fill="none"/>
+    <rect x="20" y="140" width="260" height="42" rx="3" fill="none" stroke="#2b2420" stroke-width="2"/>
+    <text x="150" y="158" font-size="12" font-weight="700" fill="#2b2420" text-anchor="middle">③ 姓がそのまま地名に</text>
+    <text x="150" y="174" font-size="11.5" fill="#2b2420" text-anchor="middle">「深川」を村名とするよう命じる → 深川村</text>
+  </svg>
+  <figcaption>深川は川の深さや地形にちなむ名ではなく、開拓者の姓が村の名になったものです。深川神明宮の由緒に伝わる経緯を3段階に並べました。</figcaption>
+</figure>`},ooyokogawa:{html:`<figure class="fig">
+  <svg viewBox="0 0 300 250" width="100%" role="img" aria-labelledby="ooyoko-title ooyoko-desc">
+    <title id="ooyoko-title">大横川と交差する運河の並びの模式図</title>
+    <desc id="ooyoko-desc">北十間川から隅田川まで南北に流れる大横川と、北から順に竪川、小名木川、仙台堀川、平久川が交差する様子を示す模式図。縮尺や正確な位置は表していません。</desc>
+    <rect width="300" height="250" fill="#f5efe4"/>
+    <text x="20" y="22" font-size="11.5" fill="#6b6259">北（北十間川）</text>
+    <line x1="60" y1="32" x2="60" y2="212" stroke="#1b4b43" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+    <text x="20" y="238" font-size="11.5" fill="#6b6259">南（隅田川）</text>
+    <text x="78" y="52" font-size="12" font-weight="700" fill="#1b4b43">大横川</text>
+    <line x1="60" y1="84" x2="250" y2="84" stroke="#a89f92" stroke-width="5" stroke-linecap="round"/>
+    <text x="84" y="76" font-size="12" fill="#2b2420">竪川</text>
+    <line x1="60" y1="118" x2="250" y2="118" stroke="#a89f92" stroke-width="5" stroke-linecap="round"/>
+    <text x="84" y="110" font-size="12" fill="#2b2420">小名木川</text>
+    <line x1="60" y1="152" x2="250" y2="152" stroke="#a89f92" stroke-width="5" stroke-linecap="round"/>
+    <text x="84" y="144" font-size="12" fill="#2b2420">仙台堀川</text>
+    <line x1="60" y1="186" x2="250" y2="186" stroke="#a89f92" stroke-width="5" stroke-linecap="round"/>
+    <text x="84" y="178" font-size="12" fill="#2b2420">平久川</text>
+    <text x="150" y="236" font-size="11.5" fill="#6b6259">総延長 6.52km</text>
+  </svg>
+  <figcaption>大横川は南北の一本の軸として、東西に走る運河と順に交わります。模式図であり、間隔や縮尺は実際の距離を表しません。</figcaption>
+</figure>`},heikyugawa:{html:`<figure class="fig">
+  <svg viewBox="0 0 300 170" width="100%" role="img" aria-labelledby="heiku-title heiku-desc">
+    <title id="heiku-title">平久川の名が二つの新田から作られた図</title>
+    <desc id="heiku-desc">右岸の平井新田の「平」と、左岸の久左衛門新田の「久」を合わせて平久川と名付けられた経緯を示す図。</desc>
+    <rect width="300" height="170" fill="#f5efe4"/>
+    <rect x="12" y="14" width="124" height="44" rx="3" fill="none" stroke="#1b4b43" stroke-width="2"/>
+    <text x="74" y="32" font-size="11" fill="#6b6259" text-anchor="middle">右岸</text>
+    <text x="74" y="50" font-size="12.5" font-weight="700" fill="#2b2420" text-anchor="middle"><tspan fill="#b5533c">平</tspan>井新田</text>
+    <rect x="164" y="14" width="124" height="44" rx="3" fill="none" stroke="#1b4b43" stroke-width="2"/>
+    <text x="226" y="32" font-size="11" fill="#6b6259" text-anchor="middle">左岸</text>
+    <text x="226" y="50" font-size="12.5" font-weight="700" fill="#2b2420" text-anchor="middle"><tspan fill="#b5533c">久</tspan>左衛門新田</text>
+    <path d="M74 60 L134 100 M226 60 L166 100" stroke="#6b6259" stroke-width="2" fill="none"/>
+    <rect x="100" y="100" width="100" height="40" rx="3" fill="#1b4b43" opacity="0.12" stroke="#1b4b43" stroke-width="2"/>
+    <text x="150" y="126" font-size="16" font-weight="700" fill="#1b4b43" text-anchor="middle"><tspan fill="#b5533c">平久</tspan>川</text>
+    <text x="150" y="160" font-size="11.5" fill="#6b6259" text-anchor="middle">全長 1.13km</text>
+  </svg>
+  <figcaption>両岸の新田の名から一字ずつ取った名前が、この川が埋め立て地の造成のなかで生まれたことを物語っています。</figcaption>
 </figure>`},"tomioka-hachimangu":{html:`<figure class="fig">
   <svg viewBox="0 0 300 110" width="100%" role="img" aria-labelledby="tomioka-title tomioka-desc">
     <title id="tomioka-title">富岡八幡宮の年表の図</title>
