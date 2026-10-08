@@ -173,7 +173,7 @@ const figures: Record<string, Figure> = {
     <text x="150" y="158" font-size="12" font-weight="700" fill="#2b2420" text-anchor="middle">③ 姓がそのまま地名に</text>
     <text x="150" y="174" font-size="11.5" fill="#2b2420" text-anchor="middle">「深川」を村名とするよう命じる → 深川村</text>
   </svg>
-  <figcaption>深川は川の深さや地形にちなむ名ではなく、開拓者の姓が村の名になったもの。深川神明宮の由緒に伝わる経緯を3段階に並べた。</figcaption>
+  <figcaption>深川は川の深さや地形にちなむ名ではなく、開拓者の姓が村の名になったものです。深川神明宮の由緒に伝わる経緯を3段階に並べました。</figcaption>
 </figure>`,
   },
   ooyokogawa: {
@@ -196,7 +196,7 @@ const figures: Record<string, Figure> = {
     <text x="84" y="178" font-size="12" fill="#2b2420">平久川</text>
     <text x="150" y="236" font-size="11.5" fill="#6b6259">総延長 6.52km</text>
   </svg>
-  <figcaption>大横川は南北の一本の軸として、東西に走る運河と順に交わる。模式図であり、間隔や縮尺は実際の距離を表さない。</figcaption>
+  <figcaption>大横川は南北の一本の軸として、東西に走る運河と順に交わります。模式図であり、間隔や縮尺は実際の距離を表しません。</figcaption>
 </figure>`,
   },
   heikyugawa: {
@@ -216,7 +216,7 @@ const figures: Record<string, Figure> = {
     <text x="150" y="126" font-size="16" font-weight="700" fill="#1b4b43" text-anchor="middle"><tspan fill="#b5533c">平久</tspan>川</text>
     <text x="150" y="160" font-size="11.5" fill="#6b6259" text-anchor="middle">全長 1.13km</text>
   </svg>
-  <figcaption>両岸の新田の名から一字ずつ取った名前が、この川が埋め立て地の造成のなかで生まれたことを物語る。</figcaption>
+  <figcaption>両岸の新田の名から一字ずつ取った名前が、この川が埋め立て地の造成のなかで生まれたことを物語っています。</figcaption>
 </figure>`,
   },
   'tomioka-hachimangu': {
