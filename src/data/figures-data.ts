@@ -180,7 +180,7 @@ const figures: Record<string, Figure> = {
     html: `<figure class="fig">
   <svg viewBox="0 0 300 250" width="100%" role="img" aria-labelledby="ooyoko-title ooyoko-desc">
     <title id="ooyoko-title">大横川と交差する運河の並びの模式図</title>
-    <desc id="ooyoko-desc">北十間川から隅田川まで南北に流れる大横川と、北から順に竪川、小名木川、仙台堀川、平久川が交差する様子を示す模式図。縮尺や正確な位置は表していない。</desc>
+    <desc id="ooyoko-desc">北十間川から隅田川まで南北に流れる大横川と、北から順に竪川、小名木川、仙台堀川、平久川が交差する様子を示す模式図。縮尺や正確な位置は表していません。</desc>
     <rect width="300" height="250" fill="#f5efe4"/>
     <text x="20" y="22" font-size="11.5" fill="#6b6259">北（北十間川）</text>
     <line x1="60" y1="32" x2="60" y2="212" stroke="#1b4b43" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
