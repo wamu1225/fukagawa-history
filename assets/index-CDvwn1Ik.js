@@ -353,6 +353,74 @@ Error generating stack: `+e.message+`
     <text x="150" y="160" font-size="11.5" fill="#6b6259" text-anchor="middle">全長 1.13km</text>
   </svg>
   <figcaption>両岸の新田の名から一字ずつ取った名前が、この川が埋め立て地の造成のなかで生まれたことを物語っています。</figcaption>
+</figure>`},"saito-an":{html:`<figure class="fig">
+  <svg viewBox="0 0 300 244" width="100%" role="img" aria-labelledby="saito-title saito-desc">
+    <title id="saito-title">芭蕉が採荼庵から旅立った水路の経路図</title>
+    <desc id="saito-desc">採荼庵から六間堀、小名木川、隅田川をのぼって千住へ向かう、元禄2年3月27日の旅立ちの経路を順に示した流れ図。</desc>
+    <rect width="300" height="244" fill="#f5efe4"/>
+    <text x="150" y="20" font-size="12" font-weight="700" fill="#2b2420" text-anchor="middle">元禄2年3月27日（新暦5月16日）</text>
+    <rect x="40" y="32" width="220" height="30" rx="3" fill="none" stroke="#b5533c" stroke-width="2"/>
+    <text x="150" y="52" font-size="12" fill="#2b2420" text-anchor="middle">採荼庵（深川1丁目付近）</text>
+    <path d="M150 64 v12 m-4 -5 l4 5 l4 -5" stroke="#6b6259" stroke-width="2" fill="none"/>
+    <rect x="40" y="78" width="220" height="30" rx="3" fill="none" stroke="#6b6259" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="150" y="98" font-size="12" fill="#2b2420" text-anchor="middle">六間堀（のちに埋め立て）</text>
+    <path d="M150 110 v12 m-4 -5 l4 5 l4 -5" stroke="#6b6259" stroke-width="2" fill="none"/>
+    <rect x="40" y="124" width="220" height="30" rx="3" fill="none" stroke="#1b4b43" stroke-width="2"/>
+    <text x="150" y="144" font-size="12" fill="#2b2420" text-anchor="middle">小名木川</text>
+    <path d="M150 156 v12 m-4 -5 l4 5 l4 -5" stroke="#6b6259" stroke-width="2" fill="none"/>
+    <rect x="40" y="170" width="220" height="30" rx="3" fill="none" stroke="#1b4b43" stroke-width="2"/>
+    <text x="150" y="190" font-size="12" fill="#2b2420" text-anchor="middle">隅田川をのぼる</text>
+    <path d="M150 202 v12 m-4 -5 l4 5 l4 -5" stroke="#6b6259" stroke-width="2" fill="none"/>
+    <rect x="40" y="216" width="220" height="24" rx="3" fill="#2b2420" opacity="0.1" stroke="#2b2420" stroke-width="2"/>
+    <text x="150" y="233" font-size="12" font-weight="700" fill="#2b2420" text-anchor="middle">千住から奥州へ</text>
+  </svg>
+  <figcaption>旅立ちは芭蕉庵ではなく採荼庵からで、運河を舟で下って始まりました。経路上の六間堀は、のちに埋め立てられて道路や公園になっています。</figcaption>
+</figure>`},"fukagawa-edo-museum":{html:`<figure class="fig">
+  <svg viewBox="0 0 300 190" width="100%" role="img" aria-labelledby="museum-title museum-desc">
+    <title id="museum-title">深川江戸資料館が再現する佐賀町の二層構造の図</title>
+    <desc id="museum-desc">水路、水路に面した表通り、その裏手の長屋という三つの層が並ぶ、江戸末期の深川佐賀町の町の構造を示す図。</desc>
+    <rect width="300" height="190" fill="#f5efe4"/>
+    <rect x="8" y="12" width="84" height="110" fill="#1b4b43" opacity="0.18" stroke="#1b4b43" stroke-width="2"/>
+    <text x="50" y="34" font-size="13" font-weight="700" fill="#1b4b43" text-anchor="middle">水路</text>
+    <text x="50" y="60" font-size="11.5" fill="#2b2420" text-anchor="middle">掘割に</text>
+    <text x="50" y="75" font-size="11.5" fill="#2b2420" text-anchor="middle">猪牙舟が</text>
+    <text x="50" y="90" font-size="11.5" fill="#2b2420" text-anchor="middle">浮かぶ</text>
+    <rect x="108" y="12" width="84" height="110" fill="#b5533c" opacity="0.14" stroke="#b5533c" stroke-width="2"/>
+    <text x="150" y="34" font-size="13" font-weight="700" fill="#b5533c" text-anchor="middle">表通り</text>
+    <text x="150" y="60" font-size="11.5" fill="#2b2420" text-anchor="middle">肥料問屋</text>
+    <text x="150" y="75" font-size="11.5" fill="#2b2420" text-anchor="middle">多田屋</text>
+    <text x="150" y="90" font-size="11.5" fill="#2b2420" text-anchor="middle">船宿2軒</text>
+    <rect x="208" y="12" width="84" height="110" fill="#2b2420" opacity="0.1" stroke="#2b2420" stroke-width="2"/>
+    <text x="250" y="34" font-size="13" font-weight="700" fill="#2b2420" text-anchor="middle">裏手</text>
+    <text x="250" y="60" font-size="11.5" fill="#2b2420" text-anchor="middle">長屋の</text>
+    <text x="250" y="75" font-size="11.5" fill="#2b2420" text-anchor="middle">生活空間</text>
+    <path d="M94 67 h12 m-5 -4 l5 4 l-5 4 M194 67 h12 m-5 -4 l5 4 l-5 4" stroke="#6b6259" stroke-width="2" fill="none"/>
+    <text x="150" y="150" font-size="11.5" fill="#2b2420" text-anchor="middle">江戸末期（天保年間ごろ）の</text>
+    <text x="150" y="167" font-size="11.5" fill="#2b2420" text-anchor="middle">深川佐賀町を実物大で再現</text>
+  </svg>
+  <figcaption>水路に面した大規模な物流と、その裏手の暮らしが隣り合う深川の二層構造を、実寸で見られます。</figcaption>
+</figure>`},"fukagawa-meshi":{html:`<figure class="fig">
+  <svg viewBox="0 0 300 180" width="100%" role="img" aria-labelledby="meshi-title meshi-desc">
+    <title id="meshi-title">深川めしの二つの形の比較図</title>
+    <desc id="meshi-desc">船上の漁師の賄いだったぶっかけ飯と、のちに陸で働く人向けに広まった炊き込みご飯を並べて比べる図。</desc>
+    <rect width="300" height="180" fill="#f5efe4"/>
+    <rect x="8" y="12" width="130" height="130" rx="3" fill="none" stroke="#1b4b43" stroke-width="2"/>
+    <text x="73" y="34" font-size="12.5" font-weight="700" fill="#1b4b43" text-anchor="middle">ぶっかけ飯</text>
+    <text x="73" y="50" font-size="11" fill="#6b6259" text-anchor="middle">（原形）</text>
+    <text x="73" y="76" font-size="11.5" fill="#2b2420" text-anchor="middle">船上の漁師の賄い</text>
+    <text x="73" y="96" font-size="11.5" fill="#2b2420" text-anchor="middle">あさりとネギを煮て</text>
+    <text x="73" y="112" font-size="11.5" fill="#2b2420" text-anchor="middle">冷や飯にかける</text>
+    <path d="M142 77 h14 m-5 -4 l5 4 l-5 4" stroke="#6b6259" stroke-width="2" fill="none"/>
+    <text x="149" y="64" font-size="11" fill="#6b6259" text-anchor="middle">のち</text>
+    <rect x="162" y="12" width="130" height="130" rx="3" fill="none" stroke="#b5533c" stroke-width="2"/>
+    <text x="227" y="34" font-size="12.5" font-weight="700" fill="#b5533c" text-anchor="middle">炊き込みご飯</text>
+    <text x="227" y="50" font-size="11" fill="#6b6259" text-anchor="middle">（のちに広まる）</text>
+    <text x="227" y="76" font-size="11.5" fill="#2b2420" text-anchor="middle">大工・職人など</text>
+    <text x="227" y="96" font-size="11.5" fill="#2b2420" text-anchor="middle">陸で働く人向け</text>
+    <text x="227" y="112" font-size="11.5" fill="#2b2420" text-anchor="middle">出汁で米を炊く</text>
+    <text x="150" y="166" font-size="11.5" fill="#2b2420" text-anchor="middle">どちらもあさりが主役</text>
+  </svg>
+  <figcaption>深川めしは、干潟がもたらしたあさりを使う二つの形で受け継がれています。</figcaption>
 </figure>`},"tomioka-hachimangu":{html:`<figure class="fig">
   <svg viewBox="0 0 300 110" width="100%" role="img" aria-labelledby="tomioka-title tomioka-desc">
     <title id="tomioka-title">富岡八幡宮の年表の図</title>
