@@ -358,7 +358,7 @@ export const articles: Article[] = [
     sources: [
       { label: '江東区公式「木場公園」（新木場移転の経緯）', url: 'https://www.city.koto.lg.jp/promotion/spot/kiba.html' },
       { label: '農林水産省「うちの郷土料理」深川めし／深川丼', url: 'https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_1_tokyo.html' },
-      { label: '複数媒体（Japaaan・Wikipedia「辰巳芸者」等）による辰巳芸者の解説記事', url: 'https://ja.wikipedia.org/wiki/%E8%BE%B0%E5%B7%B3%E8%8A%B8%E8%80%85' },
+      { label: 'Wikipedia「辰巳芸者」（名の由来・羽織姿・「芸は売っても色は売らない」の気風を確認）', url: 'https://ja.wikipedia.org/wiki/%E8%BE%B0%E5%B7%B3%E8%8A%B8%E8%80%85' },
     ],
     body: `ここまで見てきた運河・産業・文化の記事を読み進めると、似た名前や紛らわしい変化に何度もぶつかります。最後に、読み違えやすい4点を整理しておきます。
 
