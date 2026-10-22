@@ -50,13 +50,13 @@ Error generating stack: `+e.message+`
 
 ## 大火のあとの急速な埋め立て
 
-深川一帯が本格的な市街地になるのは、明暦3年（1657年）の明暦の大火のあとです。江戸市中の復興と防火対策の一環として、幕府は深川の埋め立てを一気に進め、武家屋敷や寺社、物流を担う町人地をここへ移しました。同時に、格子状に運河（掘割）を巡らせ、水運を前提にした街区を作り上げていきます。
+深川一帯が本格的な市街地になるのは、明暦3年（1657年）の明暦の大火のあとです。江戸市中の復興と防火対策の一環として、焼けた大名屋敷や武家屋敷、寺社の移転先として本所・深川が選ばれ、霊巌寺のような寺院も深川へ移りました。格子状に運河（掘割）を巡らせた、水運を前提にした街区が整えられていきます。
 
 このとき深川に張り巡らされていた運河網は、国立国会図書館が公開する古地図をもとにROIS-DS人文学オープンデータ共同利用センターが公開している「江戸マップ」の深川絵図（尾張屋版）で今も確認できます。小名木川、大横川、仙台堀川、油堀川、古石場川といった水路が、格子状に街区を区切っている様子が読み取れる資料です。さらに同センターは、この深川絵図を現代の地理院地図やGoogle Earthに重ねて表示できる「現代位置合わせ地図」も公開しています。江戸時代の水路がどの現代の街路や公園と重なるかを、自分で地図上に重ねて確かめることができる、貴重な学術データベースです。
 
 ## このサイトの見方
 
-このサイトで紹介する9つの地点のうち、小名木川、仙台堀川、古石場川、油堀川、大横川、平久川、木場は運河そのものの跡や現存する運河です。採荼庵跡と深川江戸資料館、富岡八幡宮の3地点は運河そのものではありませんが、水運と密接に結びついた場所として合わせて紹介します。運河の跡が今の深川にどんな形で残っているかを、実際に歩いて確かめられる場所を中心に見ていきます。`},{id:`onagigawa`,order:3,category:`industry`,title:`小名木川、今も流れる運河`,dek:`埋め立てられず、開削から400年以上経った今も水面を保つ深川最古の運河。`,updatedAt:`2026-09-09`,sources:[{label:`深川江戸資料館「資料館ノート」第136号（PDF）`,url:`https://www.kcf.or.jp/cms/files/pdf/original/15650_%E8%B3%87%E6%96%99%E9%A4%A8%E3%83%8E%E3%83%BC%E3%83%88136%E5%8F%B7.pdf`},{label:`東京都建設局「扇橋閘門」`,url:`https://www.kensetsu.metro.tokyo.lg.jp/jimusho/chisui/jigyou/suimon/image/ougibashi`}],body:`深川の運河網の中で最も古く、そして唯一、埋め立てられずに今も現役で流れているのが小名木川です。
+このサイトで紹介する地点のうち、小名木川、仙台堀川、古石場川、油堀川、大横川、平久川、木場は運河そのものの跡や現存する運河です。採荼庵跡と深川江戸資料館、富岡八幡宮の3地点は運河そのものではありませんが、水運と密接に結びついた場所として合わせて紹介します。運河の跡が今の深川にどんな形で残っているかを、実際に歩いて確かめられる場所を中心に見ていきます。`},{id:`onagigawa`,order:3,category:`industry`,title:`小名木川、今も流れる運河`,dek:`埋め立てられず、開削から400年以上経った今も水面を保つ深川最古の運河。`,updatedAt:`2026-09-09`,sources:[{label:`深川江戸資料館「資料館ノート」第136号（PDF）`,url:`https://www.kcf.or.jp/cms/files/pdf/original/15650_%E8%B3%87%E6%96%99%E9%A4%A8%E3%83%8E%E3%83%BC%E3%83%88136%E5%8F%B7.pdf`},{label:`東京都建設局「扇橋閘門」`,url:`https://www.kensetsu.metro.tokyo.lg.jp/jimusho/chisui/jigyou/suimon/image/ougibashi`}],body:`深川の運河網の中で最も古く、そして唯一、埋め立てられずに今も現役で流れているのが小名木川です。
 
 ## 塩を運ぶための直線水路
 
@@ -168,21 +168,21 @@ Error generating stack: `+e.message+`
 
 ## 埋め立てられた運河との対比
 
-仙台堀川や古石場川、油堀川がいずれも埋め立てられて公園や高架道路に姿を変えた一方で、[大横川](/fukagawa-history/articles/ooyokogawa/)と平久川は埋め立てられずに残りました。同じ深川の運河でありながら、一部は消えて土地の形にその記憶をとどめ、一部は今も水面のまま残っています。平久川に今も架かる震災復興橋は、埋め立て地そのものの歴史を伝える生き証人です。`},{id:`kiba`,order:11,category:`industry`,title:`木場の移り変わり、貯木場から防災公園へ`,dek:`江戸の建築需要を支えた材木の集積地は、なぜ緑地に変わったのか。`,updatedAt:`2026-09-09`,sources:[{label:`江東区公式「木場公園」`,url:`https://www.city.koto.lg.jp/promotion/spot/kiba.html`},{label:`江東区公式「木場親水公園」`,url:`https://www.city.koto.lg.jp/470705/machizukuri/kasenkoen/shinsuikoen/17624.html`}],body:`深川の産業を支えたもう一つの水辺が「木場」、すなわち貯木場です。木場もまた、運河そのものではありませんが、材木を浮かべて保管するための広大な水面と掘割網を持つ、水運と一体化した空間でした。
+仙台堀川や古石場川、油堀川がいずれも埋め立てられて公園や高架道路に姿を変えた一方で、[大横川](/fukagawa-history/articles/ooyokogawa/)と平久川は埋め立てられずに残りました。同じ深川の運河でありながら、一部は消えて土地の形にその記憶をとどめ、一部は今も水面のまま残っています。平久川に今も架かる震災復興橋は、埋め立て地そのものの歴史を伝える生き証人です。`},{id:`kiba`,order:11,category:`industry`,title:`木場の移り変わり、貯木場から防災公園へ`,dek:`江戸の建築需要を支えた材木の集積地は、なぜ緑地に変わったのか。`,updatedAt:`2026-09-09`,sources:[{label:`江東区公式「木場公園」`,url:`https://www.city.koto.lg.jp/promotion/spot/kiba.html`},{label:`江東区公式「木場親水公園」`,url:`https://www.city.koto.lg.jp/470705/machizukuri/kasenkoen/shinsuikoen/17624.html`},{label:`このまちアーカイブス（三井住友トラスト不動産）の深川・木場の記事（寛永18年の説・元禄14年の築地町・新木場移転の時期を確認。移転時期は資料により表現が異なる）`,url:`https://smtrc.jp/town-archives/city/fukagawa/p05.html`}],body:`深川の産業を支えたもう一つの水辺が「木場」、すなわち貯木場です。木場もまた、運河そのものではありませんが、材木を浮かべて保管するための広大な水面と掘割網を持つ、水運と一体化した空間でした。
 
 ## 火事の街から生まれた材木の集積地
 
-明暦3年（1657年）の明暦の大火のあと、幕府は市中の材木置場を郊外へ移す方針をとりました。当初は永代島周辺に集められていた材木置場は、その後の市街地拡大にともなって東へ移り、元禄14年（1701年）ごろ、現在の木場公園周辺にあたる一帯へ再移転しました。以後、木場は広大な貯木池と掘割網を持つ一大物流拠点として、江戸から東京にかけての建築需要を支え続けることになります。材木は川から運び込まれ、掘割の水面に浮かべたまま保管されました。木を陸に上げずに水に浮かべておくことで、乾燥による割れを防ぎ、火災の延焼も防ぐという実利的な理由があったのです。
+木場の起こりは、寛永18年（1641年）の大火で材木の値段が高騰したことから、市中に散らばっていた材木置場を深川に集めたのが始まりとする説があります。元禄14年（1701年）には、材木問屋15人が深川の低湿地を埋め立てて築地町16町を開き、のちに24町の大きな材木貯蔵地になりました。材木は川から運び込まれ、掘割の水面に浮かべたまま保管されました。
 
 ## 水運から陸運へ、そして緑地へ
 
-昭和に入ると、地盤沈下や過密化による防災上のリスク、トラック輸送への転換による水運の衰退が重なり、木場のあり方は見直しを迫られます。江東区の公式サイトによれば、昭和44年（1969年）の「江東再開発構想」の中で防災拠点の一つと位置づけられ、材木関連業者は昭和40年代後半から新木場へ移転していきました。
+昭和に入ると、地盤沈下や過密化による防災上のリスク、トラック輸送への転換による水運の衰退が重なり、木場のあり方は見直しを迫られます。江東区の公式サイトによれば、昭和44年（1969年）の「江東再開発構想」の中で防災拠点の一つと位置づけられ、材木関連業者は新木場へ移転しました。移転は昭和45年（1970年）に決まり、昭和49年（1974年）から昭和51年（1976年）にかけて行われたとされます。
 
-移転が進んだあと、かつて材木を浮かべて保管していた広大な水面と、それをつなぐ掘割は埋め立てられ、大規模災害時の避難場所にもなる「木場公園」として整備されました。約280年にわたって材木を浮かべ続けた水面と掘割は、今は緑地としての役割に変わっています。
+移転が進んだあと、かつて材木を保管していた水面の跡は、水と緑の森林公園として整備されました。これが、大規模災害時の避難場所にもなる「木場公園」です。
 
 ## 木場親水公園、掘割そのものが残る場所
 
-木場公園のすぐそばには、木場公園とは別に「木場親水公園」という細長い公園があります。ここは貯木場の水路網の一部だった「大島川東支川」という掘割を、昭和47年（1972年）から10年をかけて整備し直した場所で、延長0.9km、面積1.9haにわたって水路そのものの形が今も残っています。石積みの護岸、木製の太鼓橋、岸辺の灯籠、材木を筏に組んで操った川並（かわなみ）を模した像などが配置されており、木場公園の広大な緑地とは対照的に、掘割の幅や水面をそのまま体感できます。木場を歩くなら、防災公園として整備された木場公園と、掘割の姿を残す木場親水公園の両方を見比べると、貯木場という場所の性格がより具体的に分かります。`},{id:`fukagawa-meshi`,order:12,category:`food`,title:`深川めしと、失われた干潟の記憶`,dek:`運河だけでなく、東京湾の干潟も深川の暮らしを形づくっていました。`,updatedAt:`2026-09-09`,sources:[{label:`江東区公式「江東区の地名由来」`,url:`https://www.city.koto.lg.jp/103020/bunkasports/bunka/joho/6379.html`},{label:`深川宿「アクセス」`,url:`https://www.fukagawajuku.com/access_honten.html`}],body:`ここまで見てきた運河は、深川を物流の街にした水路です。しかしもう一つ、深川の暮らしを支えた水辺があります。深川の南側にかつて広がっていた、東京湾の干潟です。
+木場公園のすぐそばには、木場公園とは別に「木場親水公園」という細長い公園があります。貯木場の水路網の一部だった掘割を公園に整備した場所で、延長0.9km、面積1.9haにわたって水路そのものの形が今も残っています。石積みの掘割、木製の太鼓橋、岸辺の燈籠、筏を操る川並（かわなみ）の像などが配置されており、木場公園の広大な緑地とは対照的に、掘割の幅や水面をそのまま体感できます。木場を歩くなら、防災公園として整備された木場公園と、掘割の姿を残す木場親水公園の両方を見比べると、貯木場という場所の性格がより具体的に分かります。`},{id:`fukagawa-meshi`,order:12,category:`food`,title:`深川めしと、失われた干潟の記憶`,dek:`運河だけでなく、東京湾の干潟も深川の暮らしを形づくっていました。`,updatedAt:`2026-09-09`,sources:[{label:`江東区公式「江東区の地名由来」`,url:`https://www.city.koto.lg.jp/103020/bunkasports/bunka/joho/6379.html`},{label:`深川宿「アクセス」`,url:`https://www.fukagawajuku.com/access_honten.html`}],body:`ここまで見てきた運河は、深川を物流の街にした水路です。しかしもう一つ、深川の暮らしを支えた水辺があります。深川の南側にかつて広がっていた、東京湾の干潟です。
 
 ## 漁師町としての深川
 
@@ -204,7 +204,7 @@ Error generating stack: `+e.message+`
 
 ## 木場と新木場は同じ場所か
 
-違います。「[木場](/fukagawa-history/articles/kiba/)」は深川にある地名で、明暦の大火（1657年）後に材木業者が集まった元禄期以来の貯木場の跡地（今の木場公園・木場親水公園一帯）を指します。「新木場」は江東区南部の別の地名で、地盤沈下や防災上の理由から材木業者が昭和40年代後半以降に移転した先です。木場という土地から材木業そのものが引っ越して「新」木場になった、という順序を覚えておくと混同しません。
+違います。「[木場](/fukagawa-history/articles/kiba/)」は深川にある地名で、江戸以来の貯木場の跡地（今の木場公園・木場親水公園一帯）を指します。「新木場」は江東区南部の別の地名で、地盤沈下や防災上の理由から材木業者が昭和40年代以降に移転した先です。木場という土地から材木業そのものが引っ越して「新」木場になった、という順序を覚えておくと混同しません。
 
 ## 深川めしは「ぶっかけ」が正しいか、「炊き込み」が正しいか
 
@@ -446,31 +446,56 @@ Error generating stack: `+e.message+`
     <text x="260" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">像を建立</text>
   </svg>
   <figcaption>富岡八幡宮は寛永4年（1627年）の創建以来、相撲・祭り・測量という性格の異なる3つの歴史を重ねてきました。貞享元年（1684年）に境内での勧進相撲が解禁され、以後およそ100年にわたり本場所が開かれています。</figcaption>
+</figure>`},faq:{html:`<figure class="fig">
+  <svg viewBox="0 0 300 180" width="100%" role="img" aria-labelledby="faqc-title faqc-desc">
+    <title id="faqc-title">6つの水路の現在の姿の図</title>
+    <desc id="faqc-desc">小名木川・大横川・平久川は現役の川、仙台堀川・古石場川は親水公園、油堀川は埋め立てられて首都高速の高架になっていることを示す一覧図。</desc>
+    <rect width="300" height="180" fill="#f5efe4"/>
+    <circle cx="20" cy="26" r="6" fill="#1b4b43"/>
+    <text x="34" y="30" font-size="12" font-weight="700" fill="#2b2420">小名木川</text>
+    <text x="104" y="30" font-size="11.5" fill="#2b2420">現役の川（水面が続く）</text>
+    <circle cx="20" cy="52" r="6" fill="#1b4b43"/>
+    <text x="34" y="56" font-size="12" font-weight="700" fill="#2b2420">大横川</text>
+    <text x="104" y="56" font-size="11.5" fill="#2b2420">現役の川（水面が続く）</text>
+    <circle cx="20" cy="78" r="6" fill="#1b4b43"/>
+    <text x="34" y="82" font-size="12" font-weight="700" fill="#2b2420">平久川</text>
+    <text x="104" y="82" font-size="11.5" fill="#2b2420">現役の川（水面が続く）</text>
+    <circle cx="20" cy="104" r="6" fill="#8fae86"/>
+    <text x="34" y="108" font-size="12" font-weight="700" fill="#2b2420">仙台堀川</text>
+    <text x="104" y="108" font-size="11.5" fill="#2b2420">親水公園（水路の形が残る）</text>
+    <circle cx="20" cy="130" r="6" fill="#8fae86"/>
+    <text x="34" y="134" font-size="12" font-weight="700" fill="#2b2420">古石場川</text>
+    <text x="104" y="134" font-size="11.5" fill="#2b2420">親水公園（水路の形が残る）</text>
+    <circle cx="20" cy="156" r="6" fill="#b5533c"/>
+    <text x="34" y="160" font-size="12" font-weight="700" fill="#2b2420">油堀川</text>
+    <text x="104" y="160" font-size="11.5" fill="#2b2420">埋立て＋首都高の高架</text>
+  </svg>
+  <figcaption>同じ「運河」でも、いま水が見られるか、遊歩道を歩くか、高架を見上げるかは、この3区分で決まります。</figcaption>
 </figure>`},kiba:{html:`<figure class="fig">
   <svg viewBox="0 0 300 110" width="100%" role="img" aria-labelledby="kiba-title kiba-desc">
     <title id="kiba-title">木場の移り変わりの年表の図</title>
-    <desc id="kiba-desc">明暦の大火をきっかけにした材木置場の移転から、現在地への再移転、防災拠点としての位置づけ、新木場への移転までの年表。</desc>
+    <desc id="kiba-desc">材木置場を深川に集めたとされる寛永18年から、元禄14年の埋め立て、防災拠点としての位置づけ、新木場への移転までの年表。</desc>
     <rect width="300" height="110" fill="#f5efe4"/>
     <line x1="30" y1="54" x2="270" y2="54" stroke="#b9ac94" stroke-width="2.2"/>
     <path d="M270 54 l-8 -4 M270 54 l-8 4" stroke="#b9ac94" stroke-width="2.2" fill="none"/>
     <circle cx="40" cy="54" r="9" fill="#b5533c"/>
-    <text x="40" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1657</text>
-    <text x="40" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">明暦の大火</text>
-    <text x="40" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">材木置場を郊外へ</text>
-    <circle cx="125" cy="54" r="9" fill="#1b4b43"/>
-    <text x="125" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1701頃</text>
-    <text x="125" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">現在地へ</text>
-    <text x="125" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">再移転</text>
-    <circle cx="200" cy="54" r="9" fill="#b5533c"/>
-    <text x="200" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1969</text>
-    <text x="200" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">防災拠点に</text>
-    <text x="200" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">位置づけ</text>
+    <text x="40" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1641</text>
+    <text x="40" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">材木置場を</text>
+    <text x="40" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">深川へ(説)</text>
+    <circle cx="115" cy="54" r="9" fill="#1b4b43"/>
+    <text x="115" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1701</text>
+    <text x="115" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">材木問屋が</text>
+    <text x="115" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">低湿地を埋立</text>
+    <circle cx="190" cy="54" r="9" fill="#b5533c"/>
+    <text x="190" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1969</text>
+    <text x="190" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">防災拠点に</text>
+    <text x="190" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">位置づけ</text>
     <circle cx="260" cy="54" r="9" fill="#2b2420"/>
-    <text x="260" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">現在</text>
-    <text x="260" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">木場公園・</text>
-    <text x="260" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">親水公園</text>
+    <text x="260" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1974〜</text>
+    <text x="260" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">新木場へ</text>
+    <text x="260" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">移転</text>
   </svg>
-  <figcaption>約280年にわたって材木を浮かべ続けた貯木場は、昭和44年（1969年）の江東再開発構想で防災拠点と位置づけられ、材木関連業者の新木場移転を経て、今は木場公園・木場親水公園という緑地に変わっています。</figcaption>
+  <figcaption>江戸以来の貯木場は、昭和44年（1969年）の江東再開発構想で防災拠点と位置づけられ、材木関連業者の新木場移転を経て、今は木場公園・木場親水公園という緑地に変わっています。</figcaption>
 </figure>`},onagigawa:{html:`<figure class="fig">
   <svg viewBox="0 0 300 160" width="100%" role="img" aria-labelledby="ougi-title ougi-desc">
     <title id="ougi-title">扇橋閘門が水位差を調整する仕組みの図</title>
