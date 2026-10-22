@@ -324,32 +324,60 @@ const figures: Record<string, Figure> = {
   <figcaption>富岡八幡宮は寛永4年（1627年）の創建以来、相撲・祭り・測量という性格の異なる3つの歴史を重ねてきました。貞享元年（1684年）に境内での勧進相撲が解禁され、以後およそ100年にわたり本場所が開かれています。</figcaption>
 </figure>`,
   },
+  faq: {
+    html: `<figure class="fig">
+  <svg viewBox="0 0 300 180" width="100%" role="img" aria-labelledby="faqc-title faqc-desc">
+    <title id="faqc-title">6つの水路の現在の姿の図</title>
+    <desc id="faqc-desc">小名木川・大横川・平久川は現役の川、仙台堀川・古石場川は親水公園、油堀川は埋め立てられて首都高速の高架になっていることを示す一覧図。</desc>
+    <rect width="300" height="180" fill="#f5efe4"/>
+    <circle cx="20" cy="26" r="6" fill="#1b4b43"/>
+    <text x="34" y="30" font-size="12" font-weight="700" fill="#2b2420">小名木川</text>
+    <text x="104" y="30" font-size="11.5" fill="#2b2420">現役の川（水面が続く）</text>
+    <circle cx="20" cy="52" r="6" fill="#1b4b43"/>
+    <text x="34" y="56" font-size="12" font-weight="700" fill="#2b2420">大横川</text>
+    <text x="104" y="56" font-size="11.5" fill="#2b2420">現役の川（水面が続く）</text>
+    <circle cx="20" cy="78" r="6" fill="#1b4b43"/>
+    <text x="34" y="82" font-size="12" font-weight="700" fill="#2b2420">平久川</text>
+    <text x="104" y="82" font-size="11.5" fill="#2b2420">現役の川（水面が続く）</text>
+    <circle cx="20" cy="104" r="6" fill="#8fae86"/>
+    <text x="34" y="108" font-size="12" font-weight="700" fill="#2b2420">仙台堀川</text>
+    <text x="104" y="108" font-size="11.5" fill="#2b2420">親水公園（水路の形が残る）</text>
+    <circle cx="20" cy="130" r="6" fill="#8fae86"/>
+    <text x="34" y="134" font-size="12" font-weight="700" fill="#2b2420">古石場川</text>
+    <text x="104" y="134" font-size="11.5" fill="#2b2420">親水公園（水路の形が残る）</text>
+    <circle cx="20" cy="156" r="6" fill="#b5533c"/>
+    <text x="34" y="160" font-size="12" font-weight="700" fill="#2b2420">油堀川</text>
+    <text x="104" y="160" font-size="11.5" fill="#2b2420">埋立て＋首都高の高架</text>
+  </svg>
+  <figcaption>同じ「運河」でも、いま水が見られるか、遊歩道を歩くか、高架を見上げるかは、この3区分で決まります。</figcaption>
+</figure>`,
+  },
   kiba: {
     html: `<figure class="fig">
   <svg viewBox="0 0 300 110" width="100%" role="img" aria-labelledby="kiba-title kiba-desc">
     <title id="kiba-title">木場の移り変わりの年表の図</title>
-    <desc id="kiba-desc">明暦の大火をきっかけにした材木置場の移転から、現在地への再移転、防災拠点としての位置づけ、新木場への移転までの年表。</desc>
+    <desc id="kiba-desc">材木置場を深川に集めたとされる寛永18年から、元禄14年の埋め立て、防災拠点としての位置づけ、新木場への移転までの年表。</desc>
     <rect width="300" height="110" fill="#f5efe4"/>
     <line x1="30" y1="54" x2="270" y2="54" stroke="#b9ac94" stroke-width="2.2"/>
     <path d="M270 54 l-8 -4 M270 54 l-8 4" stroke="#b9ac94" stroke-width="2.2" fill="none"/>
     <circle cx="40" cy="54" r="9" fill="#b5533c"/>
-    <text x="40" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1657</text>
-    <text x="40" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">明暦の大火</text>
-    <text x="40" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">材木置場を郊外へ</text>
-    <circle cx="125" cy="54" r="9" fill="#1b4b43"/>
-    <text x="125" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1701頃</text>
-    <text x="125" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">現在地へ</text>
-    <text x="125" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">再移転</text>
-    <circle cx="200" cy="54" r="9" fill="#b5533c"/>
-    <text x="200" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1969</text>
-    <text x="200" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">防災拠点に</text>
-    <text x="200" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">位置づけ</text>
+    <text x="40" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1641</text>
+    <text x="40" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">材木置場を</text>
+    <text x="40" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">深川へ(説)</text>
+    <circle cx="115" cy="54" r="9" fill="#1b4b43"/>
+    <text x="115" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1701</text>
+    <text x="115" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">材木問屋が</text>
+    <text x="115" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">低湿地を埋立</text>
+    <circle cx="190" cy="54" r="9" fill="#b5533c"/>
+    <text x="190" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1969</text>
+    <text x="190" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">防災拠点に</text>
+    <text x="190" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">位置づけ</text>
     <circle cx="260" cy="54" r="9" fill="#2b2420"/>
-    <text x="260" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">現在</text>
-    <text x="260" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">木場公園・</text>
-    <text x="260" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">親水公園</text>
+    <text x="260" y="34" font-size="11" font-weight="700" fill="#2b2420" text-anchor="middle">1974〜</text>
+    <text x="260" y="80" font-size="10.5" fill="#2b2420" text-anchor="middle">新木場へ</text>
+    <text x="260" y="92" font-size="10.5" fill="#2b2420" text-anchor="middle">移転</text>
   </svg>
-  <figcaption>約280年にわたって材木を浮かべ続けた貯木場は、昭和44年（1969年）の江東再開発構想で防災拠点と位置づけられ、材木関連業者の新木場移転を経て、今は木場公園・木場親水公園という緑地に変わっています。</figcaption>
+  <figcaption>江戸以来の貯木場は、昭和44年（1969年）の江東再開発構想で防災拠点と位置づけられ、材木関連業者の新木場移転を経て、今は木場公園・木場親水公園という緑地に変わっています。</figcaption>
 </figure>`,
   },
   onagigawa: {
