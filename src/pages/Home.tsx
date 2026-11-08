@@ -1,39 +1,66 @@
-import { articles, CATEGORY_LABEL, type Category } from '../data/articles';
-import { SITE_NAME } from '../data/static-pages';
+import { articles } from '../data/articles';
+import { ARTICLE_GROUPS } from '../data/articleGroups';
+import { HOOK } from '../data/hooks';
+import { ICONS, articleIcon } from '../data/icons';
+import { heroSceneSvg } from '../data/figures-data';
 import { href } from '../lib/router';
 
-const CATEGORY_ORDER: Category[] = ['name-origin', 'history', 'shrine', 'food', 'industry', 'culture', 'spots', 'faq'];
-
+// トップ：最初の1画面に、この町ならではの事実（つかみ）と町の絵。説明文から始めません（2026-11-08）
 export default function Home() {
-  const grouped = CATEGORY_ORDER.map((cat) => ({
-    category: cat,
-    list: articles.filter((a) => a.category === cat),
-  })).filter((g) => g.list.length > 0);
-
+  const titleOf = (id: string) => articles.find((a) => a.id === id)?.title ?? '';
   return (
     <>
-      <div className="home-intro">
-        <h1 className="content-h1">{SITE_NAME}</h1>
-        <p className="home-intro__lede">
-          深川は、摂津から来た開拓者の名にちなんだ地名を持ち、明暦の大火のあと運河が張り巡らされた水運都市になり、俳人・芭蕉や勧進相撲、深川めしを育てた土地である。地名の由来から、今も歩いて確かめられる運河の跡まで、深川の歴史と文化を分野別にまとめている。
-        </p>
-      </div>
+      <section className="hook">
+        <p className="hook__eyebrow">深川の歴史と文化ガイド{'\u3000'}東京都江東区 深川</p>
+        <h1 className="hook__catch">{HOOK.catch}</h1>
+        <p className="hook__sub">{HOOK.sub}</p>
+        <div className="hook__scene" dangerouslySetInnerHTML={{ __html: heroSceneSvg() }} />
+      </section>
 
-      <div className="category-groups">
-        {grouped.map(({ category, list }) => (
-          <div key={category} className="category-group">
-            <h2 className="category-group__title">{CATEGORY_LABEL[category]}</h2>
+      <section className="hook-numbers" aria-label="数字で見る深川">
+        {HOOK.numbers.map((x) => (
+          <a key={x.label} className="hook-number" href={href(`/articles/${x.id}/`)}>
+            <span className="hook-icon hook-number__icon" dangerouslySetInnerHTML={{ __html: ICONS[x.icon] }} />
+            <span className="hook-number__n">{x.n}<small>{x.unit}</small></span>
+            <span className="hook-number__label">{x.label}</span>
+          </a>
+        ))}
+      </section>
+
+      <section className="hook-questions" aria-labelledby="q-title">
+        <h2 id="q-title" className="section-title">気になる問いから読む</h2>
+        <ul>
+          {HOOK.questions.map((x) => (
+            <li key={x.q}>
+              <a href={href(`/articles/${x.id}/`)}>
+                <span className="hook-icon hook-q__icon" dangerouslySetInnerHTML={{ __html: articleIcon(x.id) }} />
+                <span className="hook-q__text">
+                  <span className="hook-q">{x.q}</span>
+                  <span className="hook-a">{x.a}</span>
+                  <span className="hook-more">{titleOf(x.id)} →</span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="category-groups" aria-labelledby="articles-title">
+        <h2 id="articles-title" className="section-title">記事をぜんぶ見る</h2>
+        {ARTICLE_GROUPS.map((g) => (
+          <div key={g.title} className="category-group">
+            <h3 className="category-group__title">{g.title}</h3>
             <ul className="category-group__list">
-              {list.map((a) => (
-                <li key={a.id}>
-                  <a href={href(`/articles/${a.id}/`)}>{a.title}</a>
-                  <p className="category-group__dek">{a.dek}</p>
+              {g.ids.map((id) => (
+                <li key={id} className="hook-row">
+                  <span className="hook-icon hook-row__icon" dangerouslySetInnerHTML={{ __html: articleIcon(id) }} />
+                  <a href={href(`/articles/${id}/`)}>{titleOf(id)}</a>
                 </li>
               ))}
             </ul>
           </div>
         ))}
-      </div>
+      </section>
     </>
   );
 }

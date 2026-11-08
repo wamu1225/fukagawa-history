@@ -404,6 +404,29 @@ const figures: Record<string, Figure> = {
   },
 };
 
+// トップの絵：深川の運河の模式図。岸に低い町家と富岡八幡宮の鳥居、運河に猪牙舟（ちょきぶね）と、木場のように水に浮かべた材木（模式図）
+export function heroSceneSvg(): string {
+  const house = (x: number, w: number, h: number) =>
+    `<rect x="${x}" y="${140 - h}" width="${w}" height="${h}" fill="#efe4cf" stroke="#1b4b43" stroke-width="1.2"/>` +
+    `<path d="M${x - 4} ${140 - h} L${x + w / 2} ${140 - h - 11} L${x + w + 4} ${140 - h} Z" fill="#3d4f4b"/>` +
+    `<rect x="${x + w / 2 - 4}" y="${140 - 12}" width="8" height="12" fill="#8a6f55"/>`;
+  const log = (x: number, y: number, w: number) =>
+    `<rect x="${x}" y="${y}" width="${w}" height="6" rx="3" fill="#b08a5e" stroke="#7a5a3a" stroke-width="1"/><circle cx="${x + 3}" cy="${y + 3}" r="2" fill="#d9bf95"/>`;
+  return `<svg viewBox="0 0 360 210" width="100%" role="img" aria-label="深川の運河の模式的な絵。岸に低い町家と富岡八幡宮の鳥居、運河には舟と、水に浮かべた材木">
+  <rect width="360" height="210" fill="#e6ece9"/>
+  <circle cx="58" cy="40" r="16" fill="#f1d9a8"/>
+  <ellipse cx="300" cy="104" rx="46" ry="30" fill="#7f9a86"/>
+  <ellipse cx="262" cy="114" rx="26" ry="20" fill="#8fa994"/>
+  ${house(16, 36, 26)}${house(60, 30, 22)}${house(98, 40, 30)}${house(146, 30, 22)}${house(184, 34, 26)}
+  <g transform="translate(272,92)"><rect x="4" y="10" width="4" height="38" fill="#b5533c"/><rect x="34" y="10" width="4" height="38" fill="#b5533c"/><path d="M-4 2 Q21 7 46 2 L46 7 Q21 12 -4 7 Z" fill="#b5533c"/><rect x="0" y="14" width="42" height="4" fill="#b5533c"/></g>
+  <rect x="0" y="140" width="360" height="10" fill="#b9ac94"/>
+  <rect x="0" y="150" width="360" height="60" fill="#5f8f8a"/>
+  <path d="M14 170 h40 M110 192 h56 M200 166 h36 M300 198 h44" stroke="#9cc0b9" stroke-width="2"/>
+  ${log(236, 172, 52)}${log(250, 182, 56)}${log(240, 192, 48)}${log(296, 176, 46)}
+  <g transform="translate(70,172)"><path d="M0 0 h86 l-12 11 h-62 z" fill="#3d4f4b"/><path d="M60 0 l6 -26" stroke="#3d4f4b" stroke-width="2"/><circle cx="58" cy="-20" r="4" fill="#3d4f4b"/><path d="M54 -16 l4 14 h-2" fill="none" stroke="#3d4f4b" stroke-width="3"/></g>
+</svg>`;
+}
+
 export function figureHtml(articleId: string): string | null {
   return figures[articleId]?.html ?? null;
 }

@@ -3,10 +3,11 @@
 // 実行: npx tsx scripts/prerender.ts（npm run predeploy 内）
 import * as fs from 'fs';
 import * as path from 'path';
-import { articles, CATEGORY_LABEL, type Category } from '../src/data/articles';
+import { articles, CATEGORY_LABEL } from '../src/data/articles';
 import { ABOUT_CONTENT, PRIVACY_CONTENT, SITE_NAME } from '../src/data/static-pages';
-import { figureHtml } from '../src/data/figures-data';
+import { figureHtml, heroSceneSvg } from '../src/data/figures-data';
 import { ARTICLE_GROUPS } from '../src/data/articleGroups';
+import { HOOK, ARTICLE_POINTS } from '../src/data/hooks';
 
 const DIST_DIR = path.resolve(process.cwd(), 'dist');
 const INDEX_HTML_PATH = path.join(DIST_DIR, 'index.html');
@@ -98,21 +99,18 @@ function wrap(depth: number, title: string, desc: string, urlPath: string, bodyH
 // ── トップ（分野別の入口＝亀戸型・O-2-30） ──
 const homeDesc =
   '東京都江東区深川の歴史と文化を一次資料でまとめる。地名の由来、運河網の形成、松尾芭蕉、富岡八幡宮、深川めしまで。';
-const CATEGORY_ORDER: Category[] = ['name-origin', 'history', 'shrine', 'food', 'industry', 'culture', 'spots', 'faq'];
-const groupedHtml = CATEGORY_ORDER.map((cat) => {
-  const list = articles.filter((a) => a.category === cat);
-  if (list.length === 0) return '';
-  const rows = list
-    .map(
-      (a) =>
-        `<li><a href="${BASE}/articles/${a.id}/" style="color:#1b4b43"><strong>${esc(a.title)}</strong></a><br/><span style="color:#6b6259;font-size:0.88rem">${esc(a.dek)}</span></li>`,
-    )
-    .join('\n');
-  return `<h2 style="font-size:1.15rem;margin:24px 0 8px;color:#1b4b43">${esc(CATEGORY_LABEL[cat])}</h2>\n<ul style="padding-left:18px">${rows}</ul>`;
-}).join('\n');
+const groupedHtml = ARTICLE_GROUPS.map((g) =>
+  `<h3 style="font-size:1.02rem;margin:18px 0 6px;color:#1b4b43">${esc(g.title)}</h3>\n<ul style="padding-left:18px">${g.ids.map((id) => articles.find((a) => a.id === id)).filter((a) => a !== undefined).map((a) => `<li><a href="${BASE}/articles/${a.id}/" style="color:#1b4b43">${esc(a.title)}</a></li>`).join('\n')}</ul>`,
+).join('\n');
 const homeBody = `<article style="${shellStyle}">
-  <h1 style="${h1Style}">${SITE_NAME}</h1>
-  <p>${esc(homeDesc)}</p>
+  <p style="color:#6b6259;font-size:0.8rem">${SITE_NAME}&#12288;東京都江東区 深川</p>
+  <h1 style="${h1Style}">${esc(HOOK.catch).replace('\n', '<br/>')}</h1>
+  <p>${esc(HOOK.sub)}</p>
+  ${heroSceneSvg()}
+  <ul style="padding-left:18px">${HOOK.numbers.map((x) => `<li><a href="${BASE}/articles/${x.id}/" style="color:#1b4b43"><strong>${esc(x.n + x.unit)}</strong></a>：${esc(x.label)}</li>`).join('')}</ul>
+  <h2 style="font-size:1.15rem;margin:24px 0 8px;color:#1b4b43">気になる問いから読む</h2>
+  <ul style="padding-left:18px">${HOOK.questions.map((x) => `<li><a href="${BASE}/articles/${x.id}/" style="color:#1b4b43"><strong>${esc(x.q)}</strong></a> ${esc(x.a)}</li>`).join('')}</ul>
+  <h2 style="font-size:1.15rem;margin:24px 0 8px;color:#1b4b43">記事をぜんぶ見る</h2>
   ${groupedHtml}
   ${footerNav}
 </article>`;
@@ -167,6 +165,7 @@ for (const a of articles) {
     <p style="display:inline-block;font-size:0.74rem;padding:3px 10px;border-radius:12px;color:#fff;background:#1b4b43">${esc(CATEGORY_LABEL[a.category])}</p>
     <h1 style="${h1Style}">${esc(a.title)}</h1>
     <p style="color:#6b6259">${esc(a.dek)}</p>
+    ${ARTICLE_POINTS[a.id] ? `<div style="margin:12px 0;padding:12px 14px;background:#fff;border:2px solid #1b4b43;border-radius:8px"><p style="margin:0 0 4px;font-weight:700;color:#1b4b43;font-size:0.85rem">ざっくり3行</p><ol style="margin:0;padding-left:1.3em">${ARTICLE_POINTS[a.id].map((p) => `<li>${esc(p)}</li>`).join('')}</ol></div>` : ''}
     ${tocHtml(a.body)}
     ${mdToHtml(a.body)}
     ${fig ?? ''}
