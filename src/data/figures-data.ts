@@ -384,22 +384,22 @@ const figures: Record<string, Figure> = {
     html: `<figure class="fig">
   <svg viewBox="0 0 300 160" width="100%" role="img" aria-labelledby="ougi-title ougi-desc">
     <title id="ougi-title">扇橋閘門が水位差を調整する仕組みの図</title>
-    <desc id="ougi-desc">地盤沈下で生じた最大3mの水位差を、前後の扉で挟んだ閘室の水位を昇降させて調整する断面図。パナマ運河と同じ原理。</desc>
+    <desc id="ougi-desc">前後で大きいときに3m近くの水位差があるため、前後の扉で挟んだ区間の水位を調整して船を通す断面図。</desc>
     <rect width="300" height="160" fill="#f5efe4"/>
-    <text x="20" y="22" font-size="12" fill="#6b6259">東側（高い）</text>
+    <text x="20" y="22" font-size="12" fill="#6b6259">水位が高い側</text>
     <rect x="15" y="30" width="60" height="18" fill="#1b4b43" opacity="0.55"/>
-    <text x="230" y="48" font-size="12" fill="#6b6259">西側（低い）</text>
+    <text x="230" y="48" font-size="12" fill="#6b6259">水位が低い側</text>
     <rect x="225" y="56" width="60" height="18" fill="#1b4b43" opacity="0.55"/>
     <rect x="75" y="30" width="150" height="44" fill="none" stroke="#b5533c" stroke-width="2"/>
-    <text x="150" y="20" font-size="11.5" font-weight="700" fill="#b5533c" text-anchor="middle">閘室（幅11m・長さ110m）</text>
+    <text x="150" y="20" font-size="11.5" font-weight="700" fill="#b5533c" text-anchor="middle">前後の扉（開口幅11m）</text>
     <line x1="75" y1="30" x2="75" y2="74" stroke="#b5533c" stroke-width="3"/>
     <line x1="225" y1="30" x2="225" y2="74" stroke="#b5533c" stroke-width="3"/>
-    <text x="150" y="58" font-size="11" fill="#2b2420" text-anchor="middle">給排水で水位を約2分で調整</text>
+    <text x="150" y="58" font-size="11" fill="#2b2420" text-anchor="middle">扉の間で水位を調整</text>
     <path d="M70 100 q80 -14 160 0" fill="none" stroke="#6b6259" stroke-width="1.6" stroke-dasharray="3 4"/>
-    <text x="150" y="126" font-size="12" font-weight="700" fill="#2b2420" text-anchor="middle">最大水位差 約3m</text>
-    <text x="150" y="146" font-size="11" fill="#6b6259" text-anchor="middle">地盤沈下で東西に生じた差を、扉で挟んで通航</text>
+    <text x="150" y="126" font-size="12" font-weight="700" fill="#2b2420" text-anchor="middle">水位差 大きいとき3m近く</text>
+    <text x="150" y="146" font-size="11" fill="#6b6259" text-anchor="middle">扉で挟んだ区間で水位をそろえて通航</text>
   </svg>
-  <figcaption>地盤沈下によって小名木川の東側と西側で水位に最大3mの差ができたため、パナマ運河と同じ原理で船を昇降させる「扇橋閘門」が設けられました。前後の扉に挟まれた閘室に船を入れ、給排水で水位を約2分で調整してから反対側へ通します。</figcaption>
+  <figcaption>扇橋閘門は、前後で水位差が大きいときで3m近くになるため、前後の扉で水位を調整して船を通します。</figcaption>
 </figure>`,
   },
 };
