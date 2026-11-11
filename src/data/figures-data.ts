@@ -223,25 +223,25 @@ const figures: Record<string, Figure> = {
     html: `<figure class="fig">
   <svg viewBox="0 0 300 244" width="100%" role="img" aria-labelledby="saito-title saito-desc">
     <title id="saito-title">芭蕉が採荼庵から旅立った水路の経路図</title>
-    <desc id="saito-desc">採荼庵から六間堀、小名木川、隅田川をのぼって千住へ向かう、元禄2年3月27日の旅立ちの経路を順に示した流れ図。</desc>
+    <desc id="saito-desc">採荼庵で門人と別れ、舟で隅田川をのぼり、千住大橋のたもとから奥州へ向かう旅立ちの順を示した流れ図。</desc>
     <rect width="300" height="244" fill="#f5efe4"/>
     <text x="150" y="20" font-size="12" font-weight="700" fill="#2b2420" text-anchor="middle">元禄2年3月27日（新暦5月16日）</text>
     <rect x="40" y="32" width="220" height="30" rx="3" fill="none" stroke="#b5533c" stroke-width="2"/>
-    <text x="150" y="52" font-size="12" fill="#2b2420" text-anchor="middle">採荼庵（深川1丁目付近）</text>
+    <text x="150" y="52" font-size="12" fill="#2b2420" text-anchor="middle">採荼庵（深川1丁目8付近）</text>
     <path d="M150 64 v12 m-4 -5 l4 5 l4 -5" stroke="#6b6259" stroke-width="2" fill="none"/>
     <rect x="40" y="78" width="220" height="30" rx="3" fill="none" stroke="#6b6259" stroke-width="2" stroke-dasharray="4 4"/>
-    <text x="150" y="98" font-size="12" fill="#2b2420" text-anchor="middle">六間堀（のちに埋め立て）</text>
+    <text x="150" y="98" font-size="12" fill="#2b2420" text-anchor="middle">門人たちと別れを惜しむ</text>
     <path d="M150 110 v12 m-4 -5 l4 5 l4 -5" stroke="#6b6259" stroke-width="2" fill="none"/>
     <rect x="40" y="124" width="220" height="30" rx="3" fill="none" stroke="#1b4b43" stroke-width="2"/>
-    <text x="150" y="144" font-size="12" fill="#2b2420" text-anchor="middle">小名木川</text>
+    <text x="150" y="144" font-size="12" fill="#2b2420" text-anchor="middle">舟に乗る</text>
     <path d="M150 156 v12 m-4 -5 l4 5 l4 -5" stroke="#6b6259" stroke-width="2" fill="none"/>
     <rect x="40" y="170" width="220" height="30" rx="3" fill="none" stroke="#1b4b43" stroke-width="2"/>
     <text x="150" y="190" font-size="12" fill="#2b2420" text-anchor="middle">隅田川をのぼる</text>
     <path d="M150 202 v12 m-4 -5 l4 5 l4 -5" stroke="#6b6259" stroke-width="2" fill="none"/>
     <rect x="40" y="216" width="220" height="24" rx="3" fill="#2b2420" opacity="0.1" stroke="#2b2420" stroke-width="2"/>
-    <text x="150" y="233" font-size="12" font-weight="700" fill="#2b2420" text-anchor="middle">千住から奥州へ</text>
+    <text x="150" y="233" font-size="12" font-weight="700" fill="#2b2420" text-anchor="middle">千住大橋から奥州へ</text>
   </svg>
-  <figcaption>旅立ちは芭蕉庵ではなく採荼庵からで、運河を舟で下って始まりました。経路上の六間堀は、のちに埋め立てられて道路や公園になっています。</figcaption>
+  <figcaption>旅立ちは芭蕉庵ではなく採荼庵からで、舟で隅田川をのぼって始まりました。</figcaption>
 </figure>`,
   },
   'fukagawa-edo-museum': {
