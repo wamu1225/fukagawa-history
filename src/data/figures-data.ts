@@ -247,28 +247,28 @@ const figures: Record<string, Figure> = {
   'fukagawa-edo-museum': {
     html: `<figure class="fig">
   <svg viewBox="0 0 300 190" width="100%" role="img" aria-labelledby="museum-title museum-desc">
-    <title id="museum-title">深川江戸資料館が再現する佐賀町の二層構造の図</title>
-    <desc id="museum-desc">水路、水路に面した表通り、その裏手の長屋という三つの層が並ぶ、江戸末期の深川佐賀町の町の構造を示す図。</desc>
+    <title id="museum-title">深川江戸資料館が再現する佐賀町の三つの場面の図</title>
+    <desc id="museum-desc">大店と船宿、水茶屋と床店、長屋と職人の住まいという三つの場面が並ぶ、江戸末期の深川佐賀町の再現を示す図。</desc>
     <rect width="300" height="190" fill="#f5efe4"/>
     <rect x="8" y="12" width="84" height="110" fill="#1b4b43" opacity="0.18" stroke="#1b4b43" stroke-width="2"/>
-    <text x="50" y="34" font-size="13" font-weight="700" fill="#1b4b43" text-anchor="middle">水路</text>
-    <text x="50" y="60" font-size="11.5" fill="#2b2420" text-anchor="middle">掘割に</text>
-    <text x="50" y="75" font-size="11.5" fill="#2b2420" text-anchor="middle">猪牙舟が</text>
-    <text x="50" y="90" font-size="11.5" fill="#2b2420" text-anchor="middle">浮かぶ</text>
+    <text x="50" y="34" font-size="13" font-weight="700" fill="#1b4b43" text-anchor="middle">大店・船宿</text>
+    <text x="50" y="60" font-size="11.5" fill="#2b2420" text-anchor="middle">肥料問屋</text>
+    <text x="50" y="75" font-size="11.5" fill="#2b2420" text-anchor="middle">多田屋と</text>
+    <text x="50" y="90" font-size="11.5" fill="#2b2420" text-anchor="middle">船宿2軒</text>
     <rect x="108" y="12" width="84" height="110" fill="#b5533c" opacity="0.14" stroke="#b5533c" stroke-width="2"/>
-    <text x="150" y="34" font-size="13" font-weight="700" fill="#b5533c" text-anchor="middle">表通り</text>
-    <text x="150" y="60" font-size="11.5" fill="#2b2420" text-anchor="middle">肥料問屋</text>
-    <text x="150" y="75" font-size="11.5" fill="#2b2420" text-anchor="middle">多田屋</text>
-    <text x="150" y="90" font-size="11.5" fill="#2b2420" text-anchor="middle">船宿2軒</text>
+    <text x="150" y="34" font-size="13" font-weight="700" fill="#b5533c" text-anchor="middle">店先</text>
+    <text x="150" y="60" font-size="11.5" fill="#2b2420" text-anchor="middle">水茶屋・</text>
+    <text x="150" y="75" font-size="11.5" fill="#2b2420" text-anchor="middle">床店</text>
+    <text x="150" y="90" font-size="11.5" fill="#2b2420" text-anchor="middle">天麩羅・そば</text>
     <rect x="208" y="12" width="84" height="110" fill="#2b2420" opacity="0.1" stroke="#2b2420" stroke-width="2"/>
-    <text x="250" y="34" font-size="13" font-weight="700" fill="#2b2420" text-anchor="middle">裏手</text>
-    <text x="250" y="60" font-size="11.5" fill="#2b2420" text-anchor="middle">長屋の</text>
-    <text x="250" y="75" font-size="11.5" fill="#2b2420" text-anchor="middle">生活空間</text>
+    <text x="250" y="34" font-size="13" font-weight="700" fill="#2b2420" text-anchor="middle">長屋</text>
+    <text x="250" y="60" font-size="11.5" fill="#2b2420" text-anchor="middle">井戸・路地</text>
+    <text x="250" y="75" font-size="11.5" fill="#2b2420" text-anchor="middle">木挽職人の家</text>
     <path d="M94 67 h12 m-5 -4 l5 4 l-5 4 M194 67 h12 m-5 -4 l5 4 l-5 4" stroke="#6b6259" stroke-width="2" fill="none"/>
     <text x="150" y="150" font-size="11.5" fill="#2b2420" text-anchor="middle">江戸末期（天保年間ごろ）の</text>
     <text x="150" y="167" font-size="11.5" fill="#2b2420" text-anchor="middle">深川佐賀町を実物大で再現</text>
   </svg>
-  <figcaption>水路に面した大規模な物流と、その裏手の暮らしが隣り合う深川の二層構造を、実寸で見られます。</figcaption>
+  <figcaption>大店・船宿の商いと、水茶屋・床店、長屋の暮らしが同じ展示室に並びます。</figcaption>
 </figure>`,
   },
   'fukagawa-meshi': {
