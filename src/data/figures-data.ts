@@ -103,7 +103,7 @@ const figures: Record<string, Figure> = {
   'aburabori-shutoko': {
     html: `<figure class="fig">
   <svg viewBox="0 0 300 210" width="100%" role="img" aria-labelledby="abura-title abura-desc">
-    <title id="abura-title">油堀川がそのまま首都高速9号深川線の川幅になった断面図</title>
+    <title id="abura-title">油堀川の跡に首都高速9号深川線の高架が通る断面図</title>
     <desc id="abura-desc">かつて川幅いっぱいに水が流れていた場所に、同じ幅で高架道路が架けられている様子を示す模式図。</desc>
     <g transform="translate(20,14)">
       <text x="0" y="0" font-size="13" fill="#6b6259">かつて</text>
@@ -128,31 +128,33 @@ const figures: Record<string, Figure> = {
       <text x="10" y="80" font-size="12" fill="#2b2420">首都高速9号深川線（高架）</text>
     </g>
   </svg>
-  <figcaption>水路の川幅と、頭上を通る高架の幅はほぼ同じ。埋め立てられたあとも、土地の区画としての幅は引き継がれている。</figcaption>
+  <figcaption>かつて水が流れていた川筋の上を、いま首都高速9号深川線の高架が通っている。</figcaption>
 </figure>`,
   },
   'sendaibori-furuishiba': {
     html: `<figure class="fig">
   <svg viewBox="0 0 300 210" width="100%" role="img" aria-labelledby="canal-title canal-desc">
-    <title id="canal-title">運河のカーブがそのまま親水公園の遊歩道の形になった模式図</title>
-    <desc id="canal-desc">蛇行していた水路の形が、埋め立て後の親水公園の遊歩道の曲線としてそのまま残っている様子を示す模式図。</desc>
+    <title id="canal-title">仙台堀川の川幅を7分の1に狭めて公園にした断面の模式図</title>
+    <desc id="canal-desc">かつては川幅いっぱいに水が流れていたが、水路の幅を7分の1にして残りを埋め立て、公園にした様子を示す模式図。</desc>
     <g transform="translate(20,14)">
-      <text x="0" y="0" font-size="13" fill="#6b6259">かつて（水路）</text>
-      <path d="M 10 70 Q 45 30, 85 56 T 170 46 T 250 50" fill="none" stroke="#1b4b43" stroke-width="16" stroke-linecap="round" opacity="0.55" />
+      <text x="0" y="0" font-size="13" fill="#6b6259">かつて（川）</text>
+      <rect x="0" y="10" width="260" height="46" fill="#1b4b43" opacity="0.55" />
+      <text x="130" y="38" font-size="12" fill="#2b2420" text-anchor="middle">川幅いっぱいの水路</text>
     </g>
-    <line x1="150" y1="100" x2="150" y2="120" stroke="#6b6259" stroke-width="2" marker-end="url(#canal-arrow)" />
+    <line x1="150" y1="84" x2="150" y2="106" stroke="#6b6259" stroke-width="2" marker-end="url(#canal-arrow)" />
     <defs>
       <marker id="canal-arrow" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto">
         <path d="M0,0 L4,8 L8,0 Z" fill="#6b6259" />
       </marker>
     </defs>
     <g transform="translate(20,124)">
-      <text x="0" y="0" font-size="13" fill="#6b6259">今（親水公園）</text>
-      <path d="M 10 70 Q 45 30, 85 56 T 170 46 T 250 50" fill="none" stroke="#8fae86" stroke-width="16" stroke-linecap="round" opacity="0.5" />
-      <path d="M 10 70 Q 45 30, 85 56 T 170 46 T 250 50" fill="none" stroke="#b5533c" stroke-width="2" stroke-dasharray="4 5" />
+      <text x="0" y="0" font-size="13" fill="#6b6259">いま（親水公園）</text>
+      <rect x="0" y="10" width="260" height="46" fill="#8fae86" opacity="0.55" />
+      <rect x="111" y="10" width="38" height="46" fill="#1b4b43" opacity="0.7" />
+      <text x="130" y="76" font-size="12" fill="#2b2420" text-anchor="middle">水路は7分の1の幅、残りは園路と緑</text>
     </g>
   </svg>
-  <figcaption>水路の蛇行は、道路として新しく作られたものではないため直線にならない。同じカーブが遊歩道の形として残る。</figcaption>
+  <figcaption>江東区によれば、水路の幅を7分の1に狭め、埋め立てた部分を公園にした。</figcaption>
 </figure>`,
   },
   chimei: {
