@@ -154,7 +154,7 @@ const figures: Record<string, Figure> = {
       <text x="130" y="76" font-size="12" fill="#2b2420" text-anchor="middle">水路は7分の1の幅、残りは園路と緑</text>
     </g>
   </svg>
-  <figcaption>江東区によれば、水路の幅を7分の1に狭め、埋め立てた部分を公園にした。</figcaption>
+  <figcaption>江東区によれば、水路の幅を7分の1に狭め、埋め立てた部分が公園になりました。</figcaption>
 </figure>`,
   },
   chimei: {
