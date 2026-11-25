@@ -181,24 +181,21 @@ const figures: Record<string, Figure> = {
   ooyokogawa: {
     html: `<figure class="fig">
   <svg viewBox="0 0 300 250" width="100%" role="img" aria-labelledby="ooyoko-title ooyoko-desc">
-    <title id="ooyoko-title">大横川と交差する運河の並びの模式図</title>
-    <desc id="ooyoko-desc">北十間川から隅田川まで南北に流れる大横川と、北から順に竪川、小名木川、仙台堀川、平久川が交差する様子を示す模式図。縮尺や正確な位置は表していません。</desc>
+    <title id="ooyoko-title">大横川の区間の模式図</title>
+    <desc id="ooyoko-desc">北十間川から隅田川まで全長6.52kmの大横川を、北十間川から竪川の合流部までの大横川親水公園の区間と、合流部から下流の桜並木が多い区間に分けて示す模式図。縮尺や正確な位置は表していません。</desc>
     <rect width="300" height="250" fill="#f5efe4"/>
-    <text x="20" y="22" font-size="11.5" fill="#6b6259">北（北十間川）</text>
-    <line x1="60" y1="32" x2="60" y2="212" stroke="#1b4b43" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
-    <text x="20" y="238" font-size="11.5" fill="#6b6259">南（隅田川）</text>
-    <text x="78" y="52" font-size="12" font-weight="700" fill="#1b4b43">大横川</text>
-    <line x1="60" y1="84" x2="250" y2="84" stroke="#a89f92" stroke-width="5" stroke-linecap="round"/>
-    <text x="84" y="76" font-size="12" fill="#2b2420">竪川</text>
-    <line x1="60" y1="118" x2="250" y2="118" stroke="#a89f92" stroke-width="5" stroke-linecap="round"/>
-    <text x="84" y="110" font-size="12" fill="#2b2420">小名木川</text>
-    <line x1="60" y1="152" x2="250" y2="152" stroke="#a89f92" stroke-width="5" stroke-linecap="round"/>
-    <text x="84" y="144" font-size="12" fill="#2b2420">仙台堀川</text>
-    <line x1="60" y1="186" x2="250" y2="186" stroke="#a89f92" stroke-width="5" stroke-linecap="round"/>
-    <text x="84" y="178" font-size="12" fill="#2b2420">平久川</text>
-    <text x="150" y="236" font-size="11.5" fill="#6b6259">総延長 6.52km</text>
+    <text x="20" y="24" font-size="12" fill="#6b6259">北（北十間川）</text>
+    <line x1="60" y1="36" x2="60" y2="116" stroke="#7aa89f" stroke-width="10" stroke-linecap="round"/>
+    <text x="80" y="72" font-size="12" font-weight="700" fill="#1b4b43">大横川親水公園</text>
+    <text x="80" y="90" font-size="11.5" fill="#6b6259">北十間川〜竪川合流部</text>
+    <line x1="48" y1="126" x2="72" y2="126" stroke="#a89f92" stroke-width="3"/>
+    <text x="80" y="130" font-size="11.5" fill="#2b2420">竪川との合流部</text>
+    <line x1="60" y1="136" x2="60" y2="206" stroke="#1b4b43" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+    <text x="80" y="168" font-size="12" font-weight="700" fill="#b5533c">桜並木の多い区間</text>
+    <text x="80" y="186" font-size="11.5" fill="#6b6259">合流部から下流</text>
+    <text x="20" y="232" font-size="12" fill="#6b6259">南（隅田川）　全長 6.52km</text>
   </svg>
-  <figcaption>大横川は南北の一本の軸として、東西に走る運河と順に交わります。模式図であり、間隔や縮尺は実際の距離を表しません。</figcaption>
+  <figcaption>大横川は北十間川から隅田川まで南北に流れ、竪川との合流部を境に、上流は親水公園、下流は桜並木の多い川筋になります。模式図であり、縮尺は実際の距離を表しません。</figcaption>
 </figure>`,
   },
   heikyugawa: {
